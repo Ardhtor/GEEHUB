@@ -115,6 +115,10 @@ The system must expose a simple way to dismiss, undo, or redirect anticipatory b
 - Beginning a production task restores its actual references, constraints, and last verified state.
 - A likely next operation can be previewed before it is selected.
 - A mistaken inference can be dismissed or redirected without losing work.
+- Each task restores relevant prior context and distinguishes known, available, inferred, predicted, and unknown information.
+- A forecast records its baseline, horizon, assumptions, alternatives, confidence, and reassessment signal; it is later compared with the observed outcome.
+- Method selection follows the problem structure, and an algorithm's output is checked against evidence before it affects a consequential decision.
+- A prediction is never presented as an observed fact or silently promoted into canon.
 - Repeated corrections narrow the relevant behaviour without broadening consent.
 - No external or irreversible action occurs merely because the system predicted it.
 - The hub remains useful and quiet when it has nothing meaningful to anticipate.

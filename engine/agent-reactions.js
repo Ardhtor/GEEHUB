@@ -43,7 +43,8 @@
       making:event?.category==='making',
       people:event?.category==='people',
       story:event?.category==='story',
-      world:event?.category==='world'
+      world:event?.category==='world',
+      desire:event?.type === 'DESIRE_SIGNAL' || event?.category === 'desire' || Boolean(event?.desire?.kind)
     };
   }
 
@@ -51,7 +52,32 @@
     const a=state.agents[id]||{mood:fallback[id].mood,attention:fallback[id].attention,history:[]};
     const before=a.mood;
     let mood=a.mood, response='', next='';
-    if(id==='luke'){
+    if(features.desire){
+      const own = event.actor === id;
+      const responses = {
+        luke: own
+          ? 'He recognizes his own physical response and gives the other man room to answer before he moves closer.'
+          : 'He notices the shift in attention without deciding what it means for anyone else.',
+        tyler: own
+          ? 'He distinguishes his own arousal from any evidence of reciprocity.'
+          : 'He separates the signal from assumptions about another man’s interest.',
+        andrew: 'He gives the moment a playful opening, then lets the other man choose whether to take it.',
+        joseph: 'He notices the detail that makes the moment familiar but leaves its meaning unfinished.',
+        chase: 'He records the signal and any actual answer separately; one does not prove the other.',
+        gabe: 'He notices how attention changes posture and lets each man decide whether to return it.'
+      };
+      const nextSteps = {
+        luke:'ask before closing the distance',
+        tyler:'keep the signal separate from evidence of reciprocity',
+        andrew:'make a clear invitation and accept the answer',
+        joseph:'preserve the moment without forcing its meaning',
+        chase:'record only the response that is actually observable',
+        gabe:'let each man choose how to receive attention'
+      };
+      mood = own ? 'aware' : 'attentive';
+      response = responses[id];
+      next = nextSteps[id];
+    }else if(id==='luke'){
       if(features.scale||features.space||features.making||features.world){mood='alert';response='He notices the body first, then the room changing around it.';next='stay close enough to see what the new baseline does.';}
       else if(features.image){mood='interested';response='He studies the image for the part that feels physically present, not merely generated.';next='push the scene until the environment answers back.';}
       else if(features.people){mood='attentive';response='He notices that you have brought the shared people-space into focus.';next='let the selected people answer in their own way.';}

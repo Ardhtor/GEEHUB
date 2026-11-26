@@ -21785,6 +21785,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000384",
+      "created_at": "2026-11-26T14:19:15.541240+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "THE COMPLEX",
+      "content": "NICK: The world crosses the route from CEDAR HOUSE into THE COMPLEX. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: Persistent environment where creations leave traces and cross-pollinate. Relation carried forward: THE HOUSE KEEPS A LIGHT ON.",
+      "lineage": {
+        "event_id": "world-pulse-000384",
+        "event": {
+          "id": "world-pulse-000384",
+          "pulse": 384,
+          "time": "2026-11-26T14:19:15.541240+00:00",
+          "actor": "JOSEPH",
+          "world": "THE COMPLEX",
+          "region_id": "complex",
+          "previous_region_id": "cedar-house",
+          "phase": "CROSSING",
+          "source": "projects.json",
+          "desire_state": "continuity",
+          "action": "NICK: The world crosses the route from CEDAR HOUSE into THE COMPLEX. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: Persistent environment where creations leave traces and cross-pollinate. Relation carried forward: THE HOUSE KEEPS A LIGHT ON.",
+          "narrative_rule": "meaningful change becomes an outward-facing signal",
+          "relation": "THE HOUSE KEEPS A LIGHT ON",
+          "next_region": null,
+          "pressure": 0.88,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-26T14:19:15.541240+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000384",
+      "created_at": "2026-11-26T14:19:15.541240+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "CROSSING / THE COMPLEX / projects.json",
+      "content": "NICK: The world crosses the route from CEDAR HOUSE into THE COMPLEX. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: Persistent environment where creations leave traces and cross-pollinate. Relation carried forward: THE HOUSE KEEPS A LIGHT ON.",
+      "production_note": "The world resolved its crossing rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 384,
+        "actor": "JOSEPH",
+        "world": "THE COMPLEX",
+        "region_id": "complex",
+        "source": "projects.json",
+        "phase": "CROSSING",
+        "relation": "THE HOUSE KEEPS A LIGHT ON"
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00215",
+      "created_at": "2026-11-26T14:19:15.647878+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE COURTYARD AFTER RAIN",
+      "content": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
+      "lineage": {
+        "event_id": "northgate-campus-00215",
+        "event": {
+          "id": "northgate-campus-00215",
+          "cycle": 215,
+          "world_pulse": 384,
+          "at": "2026-11-26T14:19:15.647878+00:00",
+          "region": "founders-dormitory",
+          "title": "THE COURTYARD AFTER RAIN",
+          "kind": "social",
+          "participants": [
+            "Marek Ionescu",
+            "Noah Bell",
+            "Adrian Varga"
+          ],
+          "description": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-26T14:19:15.647878+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

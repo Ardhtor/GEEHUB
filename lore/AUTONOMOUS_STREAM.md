@@ -2973,3 +2973,11 @@ SETH: A line becomes visible between CEDAR HOUSE and THE COMPLEX. The archive na
 NICK: The cedar porch offers a warm place to return to after the noise of the district. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Rule: arrival activates aftermath
+
+### Pulse 384 — CROSSING / THE COMPLEX / 2026-11-26T14:19:15.541240+00:00
+
+NICK: The world crosses the route from CEDAR HOUSE into THE COMPLEX. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: Persistent environment where creations leave traces and cross-pollinate. Relation carried forward: THE HOUSE KEEPS A LIGHT ON.
+
+Rule: meaningful change becomes an outward-facing signal

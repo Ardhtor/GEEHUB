@@ -407,7 +407,9 @@
     if (!input || typeof input !== 'object' || Array.isArray(input)) {
       return {ok:false, error:'A desire signal object is required.'};
     }
-    const kind = String(input.kind || input.desire_kind || input.signal || 'arousal').trim().toLowerCase();
+    const rawKind = String(input.kind || input.desire_kind || input.signal || 'arousal').trim().toLowerCase();
+    const aliases = {'boner alert':'arousal', 'boner-alert':'arousal', 'boner_alert':'arousal'};
+    const kind = aliases[rawKind] || rawKind;
     if (!DESIRE_SIGNAL_KINDS.has(kind)) {
       return {ok:false, error:'Unsupported desire signal kind.'};
     }

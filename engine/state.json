@@ -1,5 +1,5 @@
 {
-  "pulse": 385,
+  "pulse": 386,
   "events": [
     {
       "pulse": 1,
@@ -7487,6 +7487,28 @@
       "occurred_at": "2026-11-26T14:20:30.285210+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000386",
+      "pulse": 386,
+      "time": "2026-11-26T22:55:19.446854+00:00",
+      "actor": "LUKE",
+      "world": "BEEFYTHIQ",
+      "region_id": "beefythiq",
+      "previous_region_id": "beefythiq",
+      "phase": "ATMOSPHERE",
+      "source": "research/embodied-scale/colossal-escalation.json",
+      "desire_state": "attention",
+      "action": "SETH: The floor answers a shift of weight with a low sound. A chair stays where it was while the distance between chair, doorway, and the man standing there acquires a different scale.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.96,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-26T22:55:19.446854+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -7537,7 +7559,7 @@
     "northgate-library": 360,
     "athletic-commons": 336.5
   },
-  "pressure": 0.94,
+  "pressure": 0.96,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 10,
@@ -7546,7 +7568,7 @@
     "world.json": 18,
     "research/embodied-scale/README.md": 19,
     "archive/male-harem/README.md": 18,
-    "research/embodied-scale/colossal-escalation.json": 15,
+    "research/embodied-scale/colossal-escalation.json": 16,
     "projects.json": 9,
     "README.md": 10,
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
@@ -7562,9 +7584,9 @@
     "worlds/athletic-commons/README.md": 13
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "beefythiq",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

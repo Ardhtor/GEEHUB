@@ -129,7 +129,7 @@ assert.ok(exchangeSchema.properties.type.enum.includes('DESIRE_SIGNAL'), 'Exchan
 assert.ok(interactionSpace.eventVocabulary.includes('DESIRE_SIGNAL'), 'Shared interaction vocabulary must include DESIRE_SIGNAL');
 assert.ok(autonomy.includes("'boner alert':'arousal'"), 'Boner alert must normalize to an arousal signal');
 assert.ok(autonomy.includes('function signalDesire'), 'World autonomy must implement desire-signal handling');
-assert.ok(autonomy.includes('signalDesire};'), 'World autonomy must expose the desire-signal API');
+assert.ok(autonomy.includes('signalDesire, state:'), 'World autonomy must expose the desire-signal API');
 assert.ok(reactions.includes("event?.type === 'DESIRE_SIGNAL'"), 'Agent reactions must recognize desire signals');
 assert.ok(consequence.includes("'DESIRE_SIGNAL'"), 'Desire signals must affect the next reaction consequence');
 

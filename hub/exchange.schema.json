@@ -34,7 +34,8 @@
         "TRANSFORM",
         "RETURN",
         "MEMORY",
-        "UTTERANCE"
+        "UTTERANCE",
+        "DESIRE_SIGNAL"
       ]
     },
     "title": {

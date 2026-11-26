@@ -21695,6 +21695,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000383",
+      "created_at": "2026-11-26T14:17:48.719072+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "CEDAR HOUSE",
+      "content": "SETH: A line becomes visible between CEDAR HOUSE and THE COMPLEX. The archive names the relation \"THE HOUSE KEEPS A LIGHT ON\".\n\nNICK: The cedar porch offers a warm place to return to after the noise of the district. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "lineage": {
+        "event_id": "world-pulse-000383",
+        "event": {
+          "id": "world-pulse-000383",
+          "pulse": 383,
+          "time": "2026-11-26T14:17:48.719072+00:00",
+          "actor": "KIRK",
+          "world": "CEDAR HOUSE",
+          "region_id": "cedar-house",
+          "previous_region_id": "cedar-house",
+          "phase": "ROUTE_OPEN",
+          "source": "worlds/cedar-house/README.md",
+          "desire_state": "tension",
+          "action": "SETH: A line becomes visible between CEDAR HOUSE and THE COMPLEX. The archive names the relation \"THE HOUSE KEEPS A LIGHT ON\".\n\nNICK: The cedar porch offers a warm place to return to after the noise of the district. The current place remains visible; the route is open, but nobody has crossed it yet.",
+          "narrative_rule": "arrival activates aftermath",
+          "relation": "THE HOUSE KEEPS A LIGHT ON",
+          "next_region": "complex",
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-26T14:17:48.719072+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000383",
+      "created_at": "2026-11-26T14:17:48.719072+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ROUTE_OPEN / CEDAR HOUSE / worlds/cedar-house/README.md",
+      "content": "SETH: A line becomes visible between CEDAR HOUSE and THE COMPLEX. The archive names the relation \"THE HOUSE KEEPS A LIGHT ON\".\n\nNICK: The cedar porch offers a warm place to return to after the noise of the district. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "production_note": "The world resolved its route_open rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 383,
+        "actor": "KIRK",
+        "world": "CEDAR HOUSE",
+        "region_id": "cedar-house",
+        "source": "worlds/cedar-house/README.md",
+        "phase": "ROUTE_OPEN",
+        "relation": "THE HOUSE KEEPS A LIGHT ON"
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00214",
+      "created_at": "2026-11-26T14:17:48.813672+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE MUSIC SOCIETY REHEARSAL",
+      "content": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
+      "lineage": {
+        "event_id": "northgate-campus-00214",
+        "event": {
+          "id": "northgate-campus-00214",
+          "cycle": 214,
+          "world_pulse": 383,
+          "at": "2026-11-26T14:17:48.813672+00:00",
+          "region": "northgate-university",
+          "title": "THE MUSIC SOCIETY REHEARSAL",
+          "kind": "music",
+          "participants": [
+            "Adrian Varga",
+            "Elliot Ward",
+            "Dan Roman"
+          ],
+          "description": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-26T14:17:48.813672+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

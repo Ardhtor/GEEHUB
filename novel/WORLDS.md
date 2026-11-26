@@ -447,3 +447,11 @@ NICK: A detail returns in CEDAR HOUSE: Someone has set an extra place at the kit
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cedar-house/README.md.
 
 Source retained: worlds/cedar-house/README.md. Pressure 1.00; memory 1.00.
+
+## CEDAR HOUSE / pulse 383 / ROUTE_OPEN
+
+SETH: A line becomes visible between CEDAR HOUSE and THE COMPLEX. The archive names the relation "THE HOUSE KEEPS A LIGHT ON".
+
+NICK: The cedar porch offers a warm place to return to after the noise of the district. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: worlds/cedar-house/README.md. Pressure 1.00; memory 1.00.

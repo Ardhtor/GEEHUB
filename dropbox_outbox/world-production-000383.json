@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000383",
+  "created_at": "2026-11-26T14:17:48.719072+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "ROUTE_OPEN / CEDAR HOUSE / worlds/cedar-house/README.md",
+  "content": "SETH: A line becomes visible between CEDAR HOUSE and THE COMPLEX. The archive names the relation \"THE HOUSE KEEPS A LIGHT ON\".\n\nNICK: The cedar porch offers a warm place to return to after the noise of the district. The current place remains visible; the route is open, but nobody has crossed it yet.",
+  "production_note": "The world resolved its route_open rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 383,
+    "actor": "KIRK",
+    "world": "CEDAR HOUSE",
+    "region_id": "cedar-house",
+    "source": "worlds/cedar-house/README.md",
+    "phase": "ROUTE_OPEN",
+    "relation": "THE HOUSE KEEPS A LIGHT ON"
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

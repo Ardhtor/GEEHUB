@@ -128,6 +128,7 @@ assert.ok(artifactRuntime.includes('emit({id=null, type'), 'Artifact runtime mus
 assert.ok(exchangeSchema.properties.type.enum.includes('DESIRE_SIGNAL'), 'Exchange schema must allow DESIRE_SIGNAL');
 assert.ok(interactionSpace.eventVocabulary.includes('DESIRE_SIGNAL'), 'Shared interaction vocabulary must include DESIRE_SIGNAL');
 assert.ok(autonomy.includes("'boner alert':'arousal'"), 'Boner alert must normalize to an arousal signal');
+assert.ok(autonomy.includes('{id:signal.id, actor, target, desire:signal'), 'Desire event and signal must share one stable ID');
 assert.ok(autonomy.includes('function signalDesire'), 'World autonomy must implement desire-signal handling');
 assert.ok(autonomy.includes('signalDesire, state:'), 'World autonomy must expose the desire-signal API');
 assert.ok(reactions.includes("event?.type === 'DESIRE_SIGNAL'"), 'Agent reactions must recognize desire signals');

@@ -11,12 +11,14 @@ const discoveryPath = path.resolve(__dirname, '../research/discovery/DISCOVERY_P
 const autonomyPath = path.resolve(__dirname, 'world-autonomy.js');
 const reactionsPath = path.resolve(__dirname, 'agent-reactions.js');
 const consequencePath = path.resolve(__dirname, 'reaction-consequence.js');
+const serverPath = path.resolve(__dirname, '../server/geehub-server.mjs');
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
 const anticipation = fs.readFileSync(anticipationPath, 'utf8');
 const discovery = fs.readFileSync(discoveryPath, 'utf8');
 const autonomy = fs.readFileSync(autonomyPath, 'utf8');
 const reactions = fs.readFileSync(reactionsPath, 'utf8');
 const consequence = fs.readFileSync(consequencePath, 'utf8');
+const server = fs.readFileSync(serverPath, 'utf8');
 
 function nonEmptyString(value, label) {
   assert.equal(typeof value, 'string', `${label} must be a string`);
@@ -111,6 +113,11 @@ for (const field of ['response_rule', 'agency_rule', 'persistence_rule']) {
 }
 assert.ok(desireSignals.signals.includes('arousal'), 'Desire signals must include embodied arousal');
 assert.ok(desireSignals.agency_rule.includes('does not establish reciprocity'), 'Desire must not imply reciprocity or consent');
+nonEmptyString(desireSignals.failure_rule, 'desire_signals.failure_rule');
+assert.ok(desireSignals.persistence_rule.includes('/api/geehub/inscribe'), 'Desire signals must use the canonical inscription endpoint');
+assert.ok(desireSignals.failure_rule.includes('local-only'), 'Unconfirmed desire events must remain visibly local-only');
+assert.ok(autonomy.includes("fetch('/api/geehub/inscribe'"), 'Browser desire signals must call the canonical inscription endpoint');
+assert.ok(server.includes('"DESIRE_SIGNAL"'), 'Server inscription contract must accept DESIRE_SIGNAL');
 assert.ok(autonomy.includes('function signalDesire'), 'World autonomy must implement desire-signal handling');
 assert.ok(autonomy.includes('signalDesire};'), 'World autonomy must expose the desire-signal API');
 assert.ok(reactions.includes("event?.type === 'DESIRE_SIGNAL'"), 'Agent reactions must recognize desire signals');

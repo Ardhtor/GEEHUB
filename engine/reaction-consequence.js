@@ -12,9 +12,12 @@
     if(!event)return;
     state.lastEvent={id:event.id||String(Date.now()),type:event.type||'CHANGE',title:event.title||'WORLD CHANGE',section:event.section||null,category:event.category||null,at:Date.now()};
     state.turn=Number(state.turn||0)+1;
-    const categoryLane={world:'luke',making:'tyler',people:'andrew',story:'joseph',archive:'chase',exploration:'chase'};
+    const categoryLane={world:'luke',making:'tyler',people:'andrew',story:'joseph',archive:'chase',exploration:'chase',desire:'andrew'};
+    const isDesireSignal=event.type==='DESIRE_SIGNAL';
     const isUserSignal=['USER_ACTION','USER_FOCUS'].includes(event.type);
-    if(isUserSignal && event.feedback==='less'){
+    if(isDesireSignal && agents.includes(event.actor)){
+      state.active=event.actor;
+    }else if(isUserSignal && event.feedback==='less'){
       state.active='chase';
     }else if(isUserSignal && categoryLane[event.category]){
       state.active=categoryLane[event.category];
@@ -32,9 +35,11 @@
       joseph:'continue the story or relationship thread you selected',
       chase:'retrieve the relevant archive and preserve its unresolved detail'
     };
-    state.intent=state.preference?.direction==='less' && isUserSignal
-      ? 'lower the priority of this area without erasing it'
-      : intents[state.active];
+    state.intent=isDesireSignal
+      ? 'carry the desire signal into a reciprocal scene without assuming another character shares it'
+      : state.preference?.direction==='less' && isUserSignal
+        ? 'lower the priority of this area without erasing it'
+        : intents[state.active];
 
     state.chain=[
       {agent:'luke',input:'presence',output:'environmental observation'},
@@ -51,6 +56,6 @@
   window.GEEHUB_REACTION_CONSEQUENCE={apply,state:()=>read()};
   window.addEventListener('geehub:interaction',e=>{
     const x=e.detail;
-    if(x && ['ENCOUNTER','TRANSFORM','RETURN','MEMORY','UTTERANCE','USER_ACTION','USER_FOCUS'].includes(x.type)) apply(x);
+    if(x && ['ENCOUNTER','TRANSFORM','RETURN','MEMORY','UTTERANCE','USER_ACTION','USER_FOCUS','DESIRE_SIGNAL'].includes(x.type)) apply(x);
   });
 })();

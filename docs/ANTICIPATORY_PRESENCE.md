@@ -123,6 +123,12 @@ The system must expose a simple way to dismiss, undo, or redirect anticipatory b
 - No external or irreversible action occurs merely because the system predicted it.
 - The hub remains useful and quiet when it has nothing meaningful to anticipate.
 
+## Current implementation boundary
+
+This document defines the intended behaviour of the active instance; it is not proof that every step already runs automatically inside the repository. The production manifest now records the information, prediction, selection, and communication rules as part of the single-instance contract. The discovery protocol describes how sources should be selected and recorded. The local creator-intake script remains a validator and manual research recorder; it does not perform live internet search. Live research during an assisted session depends on an actually available search or connected-source tool being invoked.
+
+Likewise, a prediction policy is not a forecasting model. A prediction may be made only from stated evidence and an identified method; it must not be described as calibrated until past forecasts and observed outcomes have been evaluated with an appropriate measure. The method names in this contract describe selection criteria, not claims that every algorithm is implemented or running. Report an algorithm as executed only when an actual routine or tool was invoked and its output checked. Autonomous capability requires a working adapter or executable path, durable records, and repeatable tests.
+
 ## Relationship to existing GEEHUB systems
 
 This contract extends, rather than replaces, the [Universal Growth Engine](GROWTH.md), [Tractus Continuity Contract](TRACTUS_CONTINUITY_CONTRACT.md), and [Interlocutive Field](INTERLOCUTIVE_FIELD.md). Growth supplies cumulative development; Tractus preserves inheritance and provenance; the Interlocutive Field establishes real contact with connected systems; Anticipatory Presence governs how the environment prepares and presents the next useful passage.

@@ -23,7 +23,8 @@
     "OFFER",
     "TRANSFORM",
     "RETURN",
-    "MEMORY"
+    "MEMORY",
+    "DESIRE_SIGNAL"
   ],
   "participants": [
     {

@@ -17,6 +17,10 @@ The series uses an all-male cast of adult fictional characters. They are not int
 
 The volumes are written as actual fiction: continuous scenes, dialogue, training sessions, detailed but non-explicit physical description, measurements as story artifacts, posing and presentation, clothing and equipment, character interactions, and consequences that persist. This is adult-oriented bodybuilding fantasy, not explicit sexual content.
 
+## Scene drafts
+
+- [Boner Alert](SCENE_BONER_ALERT.md) — an unnumbered Joey and Kirk scene draft, preserved separately from the six-volume canon until its exact chronological placement and relationship continuity are reconciled.
+
 ## Canon rules
 
 - Joey's Stage 5 is **COLOSSUS / LOVE ASCENDANT**. It is already colossal; later stages begin from that scale rather than resetting him to an ordinary bodybuilder.

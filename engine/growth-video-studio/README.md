@@ -581,3 +581,13 @@ The output parent must already exist and the output directory must be new. The s
 The first sequence-compositor package run [45695407336](https://github.com/Ardhtor/GEEHUB/actions/runs/45695407336) passed all 193 Node tests, all 14 Resolve Free Lua tests, Lua 5.4 syntax validation, package construction, and artifact upload. The package workflow now also includes explicit syntax and `--help` checks for `tools/compose-growth-sequence.js` and `npm run compose:sequence`.
 
 The follow-up package run [45695740115](https://github.com/Ardhtor/GEEHUB/actions/runs/45695740115) passed 193/193 Node tests, 14/14 Resolve Free Lua tests, Lua syntax validation, `node --check tools/compose-growth-sequence.js`, `npm run compose:sequence -- --help`, package construction, and artifact upload.
+
+## Masked-background camera-registration estimator
+
+`core/camera-registration.js` adds `estimateFixedCameraRegistration(frames, options)`. It consumes the same in-memory frame shape used by the temporal scene-plate builder: source RGBA pixels, binary body mask, binary protected-face mask, frame number, and source timestamp.
+
+The estimator samples normalized 3×3 luminance patches only where both masks are background and the source pixel is opaque. It searches integer translations around the reference frame, compares robust median patch-descriptor error, and records the measured offset for each frame. The default search is ±3 pixels. A verified result uses identity transforms and emits a deterministic SHA-256 checksum; a detected translation, search-boundary result, unstable background, or insufficient texture returns `status: unverified` and cannot be used as a fixed-camera assertion.
+
+This is deliberately a narrow verifier, not a general camera tracker. It does not estimate rotation, scale, perspective, rolling shutter, or optical flow. It also does not synthesize camera motion compensation. The observed translation is recorded as the target-frame sample offset relative to the reference, not as a corrective warp.
+
+The current increment is an in-memory core primitive. It does not yet load source PNGs and masks from the Dropbox exchange, bind the record to the source-frame index/segmentation sidecar digests, or provide a CLI. The scene-plate intake still relies on its existing externally supplied camera-registration record; wiring the new producer into that file boundary and independently recomputing the registration checksum is the next step. The estimator's synthetic tests pass locally, but no user footage or local Resolve/Dropbox runtime has been exercised.

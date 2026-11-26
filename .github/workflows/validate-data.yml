@@ -12,6 +12,8 @@ on:
       - 'style.css'
       - 'world.json'
       - 'engine/**'
+      - 'docs/ANTICIPATORY_PRESENCE.md'
+      - 'research/discovery/**'
       - 'characters/**'
       - 'novel/**'
       - 'research/creators/**'

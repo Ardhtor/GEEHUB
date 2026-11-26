@@ -1,5 +1,5 @@
 {
-  "pulse": 381,
+  "pulse": 382,
   "events": [
     {
       "pulse": 1,
@@ -7399,6 +7399,28 @@
       "occurred_at": "2026-11-26T13:57:01.689879+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000382",
+      "pulse": 382,
+      "time": "2026-11-26T14:15:17.744318+00:00",
+      "actor": "TYLER",
+      "world": "CEDAR HOUSE",
+      "region_id": "cedar-house",
+      "previous_region_id": "cedar-house",
+      "phase": "MEMORY",
+      "source": "worlds/cedar-house/README.md",
+      "desire_state": "recognition",
+      "action": "NICK: A detail returns in CEDAR HOUSE: Someone has set an extra place at the kitchen table. The house is busy with ordinary things—bread cooling, a chair being repaired, a book left open—and nobody is asked to explain why they came.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cedar-house/README.md.",
+      "narrative_rule": "comparison can become differentiation",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-26T14:15:17.744318+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -7450,7 +7472,7 @@
     "athletic-commons": 336.5
   },
   "pressure": 1.0,
-  "memory": 1,
+  "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
     "creative/luke-bwomph.json": 20,
@@ -7464,7 +7486,7 @@
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
     "index.html": 11,
     "worlds/common-table/README.md": 34,
-    "worlds/cedar-house/README.md": 23,
+    "worlds/cedar-house/README.md": 24,
     "worlds/cat-gardens/README.md": 30,
     "worlds/founders-dormitory/README.md": 24,
     "worlds/northgate-university/README.md": 27,
@@ -7474,12 +7496,12 @@
     "worlds/athletic-commons/README.md": 13
   },
   "next_region": null,
-  "phase": 1,
+  "phase": 2,
   "active_region": "cedar-house",
-  "current_phase": "ATMOSPHERE",
-  "current_desire_state": "attention",
-  "current_question": "What does this place do while nobody intervenes?",
-  "current_narrative_rule": "approach extends geography",
+  "current_phase": "MEMORY",
+  "current_desire_state": "recognition",
+  "current_question": "Which detail remains from the prior state?",
+  "current_narrative_rule": "comparison can become differentiation",
   "next_relation": null,
   "long_play": {
     "cycle": 242,

@@ -21605,6 +21605,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000382",
+      "created_at": "2026-11-26T14:15:17.744318+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "CEDAR HOUSE",
+      "content": "NICK: A detail returns in CEDAR HOUSE: Someone has set an extra place at the kitchen table. The house is busy with ordinary things—bread cooling, a chair being repaired, a book left open—and nobody is asked to explain why they came.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cedar-house/README.md.",
+      "lineage": {
+        "event_id": "world-pulse-000382",
+        "event": {
+          "id": "world-pulse-000382",
+          "pulse": 382,
+          "time": "2026-11-26T14:15:17.744318+00:00",
+          "actor": "TYLER",
+          "world": "CEDAR HOUSE",
+          "region_id": "cedar-house",
+          "previous_region_id": "cedar-house",
+          "phase": "MEMORY",
+          "source": "worlds/cedar-house/README.md",
+          "desire_state": "recognition",
+          "action": "NICK: A detail returns in CEDAR HOUSE: Someone has set an extra place at the kitchen table. The house is busy with ordinary things—bread cooling, a chair being repaired, a book left open—and nobody is asked to explain why they came.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cedar-house/README.md.",
+          "narrative_rule": "comparison can become differentiation",
+          "relation": null,
+          "next_region": null,
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-26T14:15:17.744318+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000382",
+      "created_at": "2026-11-26T14:15:17.744318+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "MEMORY / CEDAR HOUSE / worlds/cedar-house/README.md",
+      "content": "NICK: A detail returns in CEDAR HOUSE: Someone has set an extra place at the kitchen table. The house is busy with ordinary things—bread cooling, a chair being repaired, a book left open—and nobody is asked to explain why they came.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cedar-house/README.md.",
+      "production_note": "The world resolved its memory rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 382,
+        "actor": "TYLER",
+        "world": "CEDAR HOUSE",
+        "region_id": "cedar-house",
+        "source": "worlds/cedar-house/README.md",
+        "phase": "MEMORY",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00213",
+      "created_at": "2026-11-26T14:15:17.990928+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE BODY CULTURE CONVERSATION",
+      "content": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
+      "lineage": {
+        "event_id": "northgate-campus-00213",
+        "event": {
+          "id": "northgate-campus-00213",
+          "cycle": 213,
+          "world_pulse": 382,
+          "at": "2026-11-26T14:15:17.990928+00:00",
+          "region": "athletic-commons",
+          "title": "THE BODY CULTURE CONVERSATION",
+          "kind": "body-culture",
+          "participants": [
+            "Dan Roman",
+            "Noah Bell",
+            "Adrian Varga"
+          ],
+          "description": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-26T14:15:17.990928+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

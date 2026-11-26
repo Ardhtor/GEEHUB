@@ -15,8 +15,8 @@
     const categoryLane={world:'luke',making:'tyler',people:'andrew',story:'joseph',archive:'chase',exploration:'chase',desire:'andrew'};
     const isDesireSignal=event.type==='DESIRE_SIGNAL';
     const isUserSignal=['USER_ACTION','USER_FOCUS'].includes(event.type);
-    if(isDesireSignal && agents.includes(event.actor)){
-      state.active=event.actor;
+    if(isDesireSignal){
+      state.active=agents.includes(event.actor) ? event.actor : categoryLane.desire;
     }else if(isUserSignal && event.feedback==='less'){
       state.active='chase';
     }else if(isUserSignal && categoryLane[event.category]){

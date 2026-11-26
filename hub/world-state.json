@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00242.json",
+  "activeRecording": "./recordings/scheduled-recording-00243.json",
   "activeEncounter": {
-    "regionId": "cedar-house",
-    "regionName": "CEDAR HOUSE",
+    "regionId": "beefythiq",
+    "regionName": "BEEFYTHIQ",
     "subject": {
-      "agent": "tyler",
-      "scale": 17.94,
+      "agent": "andrew",
+      "scale": 18.02,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / CAT GARDENS → CEDAR HOUSE / TYLER",
+    "intent": "LONG PLAY / THE COMPLEX → BEEFYTHIQ / ANDREW",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 17.89× → 17.94×",
-      "CAT GARDENS → CEDAR HOUSE",
-      "relation: GOOD LUCK HAS WHISKERS",
+      "scale 17.94× → 18.02×",
+      "THE COMPLEX → BEEFYTHIQ",
+      "relation: MASS BECOMES WEATHER",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "cat-gardens"
+    "previousRegionId": "complex"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-26T05:20:49.708Z",
+  "snapshot": "2026-11-26T15:38:44.425Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 242,
-    "agent": "tyler",
-    "previousRegionId": "cat-gardens",
-    "regionId": "cedar-house",
-    "relation": "GOOD LUCK HAS WHISKERS",
+    "cycle": 243,
+    "agent": "andrew",
+    "previousRegionId": "complex",
+    "regionId": "beefythiq",
+    "relation": "MASS BECOMES WEATHER",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 17.89,
-    "scale": 17.94,
-    "recording": "scheduled-recording-00242",
-    "at": "2026-11-26T05:20:49.708Z"
+    "previousScale": 17.94,
+    "scale": 18.02,
+    "recording": "scheduled-recording-00243",
+    "at": "2026-11-26T15:38:44.425Z"
   }
 }

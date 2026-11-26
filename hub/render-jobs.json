@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00243",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00243.json",
+      "route": {
+        "from": "complex",
+        "to": "beefythiq",
+        "relation": "MASS BECOMES WEATHER"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-26T15:38:44.425Z"
+    },
+    {
+      "id": "scheduled-video-00243",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00243.json",
+      "route": {
+        "from": "complex",
+        "to": "beefythiq",
+        "relation": "MASS BECOMES WEATHER"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-26T15:38:44.425Z"
+    },
+    {
+      "id": "scheduled-space-00243",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00243.json",
+      "route": {
+        "from": "complex",
+        "to": "beefythiq",
+        "relation": "MASS BECOMES WEATHER"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-26T15:38:44.425Z"
+    },
+    {
       "id": "scheduled-sound-00242",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-11-01T02:37:47.944Z"
-    },
-    {
-      "id": "scheduled-sound-00143",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00143.json",
-      "route": {
-        "from": "facility",
-        "to": "beefythiq",
-        "relation": "THE ROOM GETS SMALLER"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-31T23:38:27.744Z"
-    },
-    {
-      "id": "scheduled-video-00143",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00143.json",
-      "route": {
-        "from": "facility",
-        "to": "beefythiq",
-        "relation": "THE ROOM GETS SMALLER"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-31T23:38:27.744Z"
-    },
-    {
-      "id": "scheduled-space-00143",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00143.json",
-      "route": {
-        "from": "facility",
-        "to": "beefythiq",
-        "relation": "THE ROOM GETS SMALLER"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-31T23:38:27.744Z"
     }
   ]
 }

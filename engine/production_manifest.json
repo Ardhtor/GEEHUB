@@ -120,5 +120,28 @@
     "continuity_rule": "Carry observed details, routes, arrivals, encounters, companions, remembered impressions, and relationship changes into subsequent scenes. Keep direct observation, personal interpretation, hearsay, and established world fact distinct.",
     "persistence_rule": "Store the authored passage and its structured event and lineage through the normal artifact and state persistence path. Do not treat an observation or movement as complete until its record is persisted.",
     "canon_rule": "Character-authored writing is narrative material. Observations and interpretations do not become world canon automatically; apply the existing canon, evidence, and branch rules."
+  },
+  "desire_signals": {
+    "event_type": "DESIRE_SIGNAL",
+    "signals": [
+      "arousal",
+      "attraction",
+      "longing",
+      "tension",
+      "affection",
+      "curiosity",
+      "proximity"
+    ],
+    "effects": [
+      "attention",
+      "gaze",
+      "posture",
+      "proximity",
+      "dialogue",
+      "relationship tension"
+    ],
+    "response_rule": "A signal changes the experiencing character's attention and can generate voiced observation, dialogue, invitations, pauses, and movement. The character's response must remain distinct and continuous with his established temperament.",
+    "agency_rule": "Arousal or attraction describes the experiencing character only. It does not establish reciprocity, permission, or consent. Do not infer another character's interest; invitations and changes in proximity leave room for an actual answer, including refusal or no response.",
+    "persistence_rule": "Record the signal as a DESIRE_SIGNAL event through the existing world artifact and activity path, retaining actor, optional target, kind, location, timestamp, and the authored narrative passage."
   }
 }

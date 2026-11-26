@@ -463,3 +463,11 @@ NICK: The world crosses the route from CEDAR HOUSE into THE COMPLEX. The earlier
 SETH: Persistent environment where creations leave traces and cross-pollinate. Relation carried forward: THE HOUSE KEEPS A LIGHT ON.
 
 Source retained: projects.json. Pressure 0.88; memory 1.00.
+
+## THE COMPLEX / pulse 385 / ATMOSPHERE
+
+SETH: The corridor smells faintly of cedar and warm electronics. A mug has left a pale ring on the sill, and sunlight reaches the wall where a doorway used to cast a narrower shadow.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: novel/REWRITTEN_OPENING.md. Pressure 0.90; memory 1.00.

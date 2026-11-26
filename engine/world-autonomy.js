@@ -25,6 +25,7 @@
     sequence: 0,
     pressure: 0.18,
     memory: 0.5,
+    desireSignals: [],
     runMode: false,
     startedAt: now(),
     lastEvent: null,
@@ -123,7 +124,7 @@
       window.GEEHUB_SCREEN_PUNCTURE.quietNarrativeUpdate(update);
     } else update();
   }
-  function record(type, title, body, from = state.currentRegion, to = null, artifact = true) {
+  function record(type, title, body, from = state.currentRegion, to = null, artifact = true, metadata = {}) {
     if (type === 'MEMORY') state.memory = Math.min(1, Number(state.memory || 0.5) + 0.035);
     if (type === 'ROUTE_OPEN') { state.memory = Math.min(1, Number(state.memory || 0.5) + 0.04); state.pressure = Math.min(1, Number(state.pressure || 0.18) + 0.04); }
     state.sequence = Number(state.sequence || 0) + 1;
@@ -138,6 +139,7 @@
       at: now(),
       elapsedMs: Math.max(0, stamp() - Date.parse(state.startedAt || now()))
     };
+    Object.assign(event, metadata && typeof metadata === 'object' ? metadata : {});
     state.lastEvent = event;
     state.history = [event, ...(state.history || [])].slice(0, MAX_HISTORY);
     persist();
@@ -161,6 +163,7 @@
       : type === 'CROSSING' ? 'RETURN'
       : type === 'INPUT_RESPONSE' ? 'TRANSFORM'
       : type === 'ATMOSPHERE' ? 'NOTICE'
+      : type === 'DESIRE_SIGNAL' ? 'DESIRE_SIGNAL'
       : 'WORLD_RESPONSE';
     const interaction = {
       id:event.id,
@@ -171,6 +174,10 @@
       to:to || from || 'world',
       source:'world-autonomy',
       live:true,
+      actor:event.actor || null,
+      target:event.target || null,
+      desire:event.desire || null,
+      category:event.category || null,
       at:stamp()
     };
     if (window.GEEHUB_INTERACTION?.emit) {
@@ -385,6 +392,75 @@
     record('INPUT_RESPONSE', 'WORLD RESPONDS TO ' + String(source).toUpperCase(), line + ' Pressure ' + Math.round(delta.before*100) + '% → ' + Math.round(delta.after*100) + '%.', state.currentRegion, null);
     schedule(state.runMode ? FAST_TICK_MS : 9000);
   }
+
+  const DESIRE_SIGNAL_KINDS = new Set([
+    'arousal', 'attraction', 'longing', 'tension', 'affection', 'curiosity', 'proximity'
+  ]);
+  const DESIRE_CHARACTERS = {
+    luke: 'Luke', tyler: 'Tyler', andrew: 'Andrew',
+    joseph: 'Joseph', chase: 'Chase', gabe: 'Gabe'
+  };
+
+  function signalDesire(input = {}) {
+    if (!input || typeof input !== 'object' || Array.isArray(input)) {
+      return {ok:false, error:'A desire signal object is required.'};
+    }
+    const kind = String(input.kind || input.desire_kind || input.signal || 'arousal').trim().toLowerCase();
+    if (!DESIRE_SIGNAL_KINDS.has(kind)) {
+      return {ok:false, error:'Unsupported desire signal kind.'};
+    }
+    const actor = String(input.actor || input.character_id || input.character || '').trim().toLowerCase() || null;
+    const target = String(input.target || input.focus || '').trim().toLowerCase() || null;
+    if (actor && !DESIRE_CHARACTERS[actor]) return {ok:false, error:'Unknown character actor.'};
+    if (target && !DESIRE_CHARACTERS[target]) return {ok:false, error:'Unknown character target.'};
+    if (actor && target && actor === target) return {ok:false, error:'A character cannot be their own target.'};
+
+    const feeling = {
+      arousal:'physical arousal',
+      attraction:'attraction',
+      longing:'longing',
+      tension:'tension',
+      affection:'affection',
+      curiosity:'curiosity',
+      proximity:'a wish to close the distance'
+    }[kind];
+    const current = region(state.currentRegion);
+    const signal = {
+      id:'desire-signal-' + stamp(),
+      kind,
+      actor,
+      target,
+      location:current?.id || null,
+      at:now()
+    };
+    const referent = target ? DESIRE_CHARACTERS[target] : 'the other man';
+    const actions = {
+      luke:`He lets his interest show and waits for ${referent} to answer before moving closer.`,
+      tyler:`He separates his own feeling from anything he can actually know about ${referent}.`,
+      andrew:`He gives ${referent} a playful opening, then leaves the choice with him.`,
+      joseph:'He notices the small detail that made the feeling familiar and does not force a conclusion from it.',
+      chase:'He keeps the look, pause, and any actual answer distinct from his interpretation.',
+      gabe:'He notices how attention changes his posture, then decides whether to return it.'
+    };
+    const body = actor
+      ? `${DESIRE_CHARACTERS[actor]} recognizes ${feeling}${target ? ' toward ' + DESIRE_CHARACTERS[target] : ''}. ${actions[actor]} The other man's response remains his to choose.`
+      : `A shared signal of ${feeling} enters ${current?.name || 'the shared world'}. It changes the room's attention, but assigns the feeling to no particular character. Each man remains free to answer, ignore it, or keep his distance; no one's interest or consent is inferred.`;
+
+    state.desireSignals = [signal, ...(state.desireSignals || [])].slice(0, 32);
+    state.pressure = Math.min(1, Number(state.pressure || 0.18) + (kind === 'arousal' ? 0.08 : 0.05));
+    state.memory = Math.min(1, Number(state.memory || 0.5) + 0.025);
+    const event = record(
+      'DESIRE_SIGNAL',
+      'DESIRE / ' + kind.toUpperCase() + (actor ? ' / ' + DESIRE_CHARACTERS[actor].toUpperCase() : ''),
+      body,
+      current?.id || null,
+      current?.id || null,
+      true,
+      {actor, target, desire:signal, category:'desire'}
+    );
+    return {ok:true, signal, event};
+  }
+
   function setRunMode(active) {
     state.runMode = Boolean(active);
     persist();
@@ -508,7 +584,18 @@
     document.addEventListener('geehub:world-encounter', onEncounter);
     document.addEventListener('geehub:sensation', e => externalResponse('geehub:sensation', e.detail || {}));
     document.addEventListener('geehub:hyper-morph', e => externalResponse('geehub:hyper-morph', e.detail || {}));
-    document.addEventListener('geehub:interaction', e => externalResponse('geehub:interaction', e.detail || {}));
+    const handleInteraction = e => {
+      const detail = e.detail || {};
+      if (detail.type === 'DESIRE_SIGNAL') {
+        if (detail.source !== 'world-autonomy') signalDesire(detail.desire || detail);
+        return;
+      }
+      externalResponse('geehub:interaction', detail);
+    };
+    document.addEventListener('geehub:interaction', handleInteraction);
+    window.addEventListener('geehub:interaction', handleInteraction);
+    document.addEventListener('geehub:desire-signal', e => signalDesire(e.detail || {}));
+    window.addEventListener('geehub:desire-signal', e => signalDesire(e.detail || {}));
     document.addEventListener('click', e => {
       if (e.target.closest('#runWorld')) return;
       if (e.target.closest('button, a, input, select, textarea')) {
@@ -549,7 +636,7 @@
     state.visits[currentId] = Number(state.visits[currentId] || 0);
     renderProgress(selection.source === 'persistent-engine' ? 'WORLD / PERSISTENT STATE RESTORED' : 'WORLD / MEMORY RESTORED');
     schedule(FIRST_TICK_MS);
-    window.GEEHUB_WORLD_AUTONOMY = {setRunMode, state:() => ({...state, history:[...(state.history||[])]}), tick:() => tick(), schedule:delay => schedule(delay)};
+    window.GEEHUB_WORLD_AUTONOMY = {setRunMode, signalDesire, state:() => ({...state, history:[...(state.history||[])], desireSignals:[...(state.desireSignals||[])]}), tick:() => tick(), schedule:delay => schedule(delay)};
     document.dispatchEvent(new CustomEvent('geehub:world-autonomy-ready', {detail:{currentRegion:state.currentRegion, at:now()}}));
   }
 

@@ -4,6 +4,8 @@
   "persistence": "dropbox",
   "cycle": [
     "scan",
+    "observe",
+    "ambulate",
     "desire",
     "encounter",
     "transform",
@@ -74,5 +76,49 @@
     ],
     "completion_rule": "A maintenance task is complete only when the relevant files are updated and the change has been checked at the strongest practical level. Report what changed and distinguish committed, tested, and runtime-verified results.",
     "constraint": "Do not turn these examples into separate menu destinations or a new subsystem. They are ordinary task types handled within the existing single persistent task instance."
+  },
+  "character_activity": {
+    "enabled": true,
+    "observation": {
+      "rule": "A character's attention produces authored narrative. Write what that character can see, hear, smell, touch, remember, and notice in the moment, including ordinary details and changes in atmosphere.",
+      "writing": [
+        "character-voiced observation passages",
+        "field notes and remembered details",
+        "sensory descriptions grounded in the current viewpoint"
+      ],
+      "event_fields": [
+        "character_id",
+        "world_id",
+        "location_id",
+        "observed_at",
+        "observed_details",
+        "interpretation",
+        "source_event_id"
+      ]
+    },
+    "ambulation": {
+      "rule": "Walking, wandering, crossing, exploring, travelling, arriving, departing, and pausing are narrative actions. Follow the character through the space and write the movement as it is experienced, not merely as a change of coordinates.",
+      "writing": [
+        "continuous walking and travel passages",
+        "route descriptions and crossings",
+        "arrival, departure, and pause scenes",
+        "encounters and reflections produced along the route"
+      ],
+      "event_fields": [
+        "character_id",
+        "origin_location_id",
+        "destination_location_id",
+        "route_id",
+        "companions",
+        "movement",
+        "arrived_at",
+        "source_event_id"
+      ]
+    },
+    "authorship_rule": "Keep the observing or moving character identifiable as the viewpoint and preserve their distinct voice; do not reduce their experience to a system summary.",
+    "narrative_output_rule": "When a character observes, walks, wanders, crosses, explores, or travels, write the experience as part of the living narrative even when no plot-changing event occurs. Preserve the passage as an artifact linked to its activity event and location or route.",
+    "continuity_rule": "Carry observed details, routes, arrivals, encounters, companions, remembered impressions, and relationship changes into subsequent scenes. Keep direct observation, personal interpretation, hearsay, and established world fact distinct.",
+    "persistence_rule": "Store the authored passage and its structured event and lineage through the normal artifact and state persistence path. Do not treat an observation or movement as complete until its record is persisted.",
+    "canon_rule": "Character-authored writing is narrative material. Observations and interpretations do not become world canon automatically; apply the existing canon, evidence, and branch rules."
   }
 }

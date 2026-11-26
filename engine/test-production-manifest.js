@@ -8,9 +8,15 @@ const path = require('node:path');
 const manifestPath = path.join(__dirname, 'production_manifest.json');
 const anticipationPath = path.resolve(__dirname, '../docs/ANTICIPATORY_PRESENCE.md');
 const discoveryPath = path.resolve(__dirname, '../research/discovery/DISCOVERY_PROTOCOL.md');
+const autonomyPath = path.resolve(__dirname, 'world-autonomy.js');
+const reactionsPath = path.resolve(__dirname, 'agent-reactions.js');
+const consequencePath = path.resolve(__dirname, 'reaction-consequence.js');
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
 const anticipation = fs.readFileSync(anticipationPath, 'utf8');
 const discovery = fs.readFileSync(discoveryPath, 'utf8');
+const autonomy = fs.readFileSync(autonomyPath, 'utf8');
+const reactions = fs.readFileSync(reactionsPath, 'utf8');
+const consequence = fs.readFileSync(consequencePath, 'utf8');
 
 function nonEmptyString(value, label) {
   assert.equal(typeof value, 'string', `${label} must be a string`);
@@ -94,6 +100,21 @@ assert.ok(execution.prediction_rule.includes('horizon') && execution.prediction_
   'Prediction policy must preserve horizon and baseline');
 assert.ok(execution.algorithm_rule.includes('simplest adequate method'),
   'Algorithm policy must prefer the simplest adequate method');
+
+const desireSignals = manifest.desire_signals;
+assert.ok(desireSignals && typeof desireSignals === 'object', 'desire_signals configuration is required');
+assert.equal(desireSignals.event_type, 'DESIRE_SIGNAL', 'Desire must use the shared DESIRE_SIGNAL event type');
+stringList(desireSignals.signals, 'desire_signals.signals');
+stringList(desireSignals.effects, 'desire_signals.effects');
+for (const field of ['response_rule', 'agency_rule', 'persistence_rule']) {
+  nonEmptyString(desireSignals[field], `desire_signals.${field}`);
+}
+assert.ok(desireSignals.signals.includes('arousal'), 'Desire signals must include embodied arousal');
+assert.ok(desireSignals.agency_rule.includes('does not establish reciprocity'), 'Desire must not imply reciprocity or consent');
+assert.ok(autonomy.includes('function signalDesire'), 'World autonomy must implement desire-signal handling');
+assert.ok(autonomy.includes('signalDesire};'), 'World autonomy must expose the desire-signal API');
+assert.ok(reactions.includes("event?.type === 'DESIRE_SIGNAL'"), 'Agent reactions must recognize desire signals');
+assert.ok(consequence.includes("'DESIRE_SIGNAL'"), 'Desire signals must affect the next reaction consequence');
 
 const maintenance = manifest.maintenance;
 assert.ok(maintenance && typeof maintenance === 'object', 'maintenance rules are required');

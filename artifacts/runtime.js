@@ -14,9 +14,9 @@ window.GEEHUB_ARTIFACTS = {
     }
   },
 
-  emit({type, title, body, source="GEEHUB", lineage=null, canon="unclassified", dreamable=true, quietness="high"}) {
+  emit({id=null, type, title, body, source="GEEHUB", lineage=null, canon="unclassified", dreamable=true, quietness="high"}) {
     const artifact = {
-      id: "local-" + Date.now() + "-" + Math.random().toString(36).slice(2, 8),
+      id: id || ("local-" + Date.now() + "-" + Math.random().toString(36).slice(2, 8)),
       created_at: new Date().toISOString(),
       source, kind: type, type, title, content: body, body,
       lineage, canon, dreamable, quietness

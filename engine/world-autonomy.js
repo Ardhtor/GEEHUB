@@ -430,7 +430,7 @@
     }[kind];
     const current = region(state.currentRegion);
     const signal = {
-      id:'desire-signal-' + stamp(),
+      id:'desire-signal-' + stamp() + '-' + (Number(state.sequence || 0) + 1),
       kind,
       actor,
       target,
@@ -460,7 +460,7 @@
       current?.id || null,
       current?.id || null,
       true,
-      {actor, target, desire:signal, category:'desire'}
+      {id:signal.id, actor, target, desire:signal, category:'desire'}
     );
     void inscribeDesireEvent(event);
     return {ok:true, signal, event};

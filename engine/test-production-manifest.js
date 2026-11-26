@@ -33,6 +33,28 @@ nonEmptyString(manifest.artifact_rule, 'artifact_rule');
 nonEmptyString(manifest.unfinished_rule, 'unfinished_rule');
 nonEmptyString(manifest.canon_rule, 'canon_rule');
 
+assert.ok(manifest.cycle.includes('observe'), 'The production cycle must include character observation');
+assert.ok(manifest.cycle.includes('ambulate'), 'The production cycle must include character movement');
+
+const characterActivity = manifest.character_activity;
+assert.ok(characterActivity && characterActivity.enabled === true, 'Character activity must be enabled');
+for (const field of ['authorship_rule', 'narrative_output_rule', 'continuity_rule', 'persistence_rule', 'canon_rule']) {
+  nonEmptyString(characterActivity[field], `character_activity.${field}`);
+}
+for (const kind of ['observation', 'ambulation']) {
+  const activity = characterActivity[kind];
+  assert.ok(activity && typeof activity === 'object', `character_activity.${kind} is required`);
+  nonEmptyString(activity.rule, `character_activity.${kind}.rule`);
+  stringList(activity.writing, `character_activity.${kind}.writing`);
+  stringList(activity.event_fields, `character_activity.${kind}.event_fields`);
+}
+assert.ok(characterActivity.narrative_output_rule.includes('even when no plot-changing event occurs'),
+  'Ordinary observation and movement must still produce narrative writing');
+assert.ok(characterActivity.persistence_rule.includes('persisted'),
+  'Character writing must be persisted with its activity record');
+assert.ok(characterActivity.canon_rule.includes('do not become world canon automatically'),
+  'Observation and interpretation must not be promoted to canon automatically');
+
 const execution = manifest.execution;
 assert.ok(execution && typeof execution === 'object', 'execution configuration is required');
 assert.equal(execution.instance_model, 'single-persistent-instance', 'GEEHUB must use one persistent task instance');

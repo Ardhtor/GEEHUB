@@ -13,6 +13,8 @@ const reactionsPath = path.resolve(__dirname, 'agent-reactions.js');
 const consequencePath = path.resolve(__dirname, 'reaction-consequence.js');
 const serverPath = path.resolve(__dirname, '../server/geehub-server.mjs');
 const artifactRuntimePath = path.resolve(__dirname, '../artifacts/runtime.js');
+const exchangeSchemaPath = path.resolve(__dirname, '../hub/exchange.schema.json');
+const interactionSpacePath = path.resolve(__dirname, '../hub/interaction-space.json');
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
 const anticipation = fs.readFileSync(anticipationPath, 'utf8');
 const discovery = fs.readFileSync(discoveryPath, 'utf8');
@@ -21,6 +23,8 @@ const reactions = fs.readFileSync(reactionsPath, 'utf8');
 const consequence = fs.readFileSync(consequencePath, 'utf8');
 const server = fs.readFileSync(serverPath, 'utf8');
 const artifactRuntime = fs.readFileSync(artifactRuntimePath, 'utf8');
+const exchangeSchema = JSON.parse(fs.readFileSync(exchangeSchemaPath, 'utf8'));
+const interactionSpace = JSON.parse(fs.readFileSync(interactionSpacePath, 'utf8'));
 
 function nonEmptyString(value, label) {
   assert.equal(typeof value, 'string', `${label} must be a string`);
@@ -121,6 +125,9 @@ assert.ok(desireSignals.failure_rule.includes('local-only'), 'Unconfirmed desire
 assert.ok(autonomy.includes("fetch('/api/geehub/inscribe'"), 'Browser desire signals must call the canonical inscription endpoint');
 assert.ok(server.includes('"DESIRE_SIGNAL"'), 'Server inscription contract must accept DESIRE_SIGNAL');
 assert.ok(artifactRuntime.includes('emit({id=null, type'), 'Artifact runtime must preserve the event-linked artifact ID');
+assert.ok(exchangeSchema.properties.type.enum.includes('DESIRE_SIGNAL'), 'Exchange schema must allow DESIRE_SIGNAL');
+assert.ok(interactionSpace.eventVocabulary.includes('DESIRE_SIGNAL'), 'Shared interaction vocabulary must include DESIRE_SIGNAL');
+assert.ok(autonomy.includes("'boner alert':'arousal'"), 'Boner alert must normalize to an arousal signal');
 assert.ok(autonomy.includes('function signalDesire'), 'World autonomy must implement desire-signal handling');
 assert.ok(autonomy.includes('signalDesire};'), 'World autonomy must expose the desire-signal API');
 assert.ok(reactions.includes("event?.type === 'DESIRE_SIGNAL'"), 'Agent reactions must recognize desire signals');

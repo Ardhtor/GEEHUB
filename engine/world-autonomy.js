@@ -147,12 +147,14 @@
     if (artifact && window.GEEHUB_ARTIFACTS?.emit) {
       try {
         window.GEEHUB_ARTIFACTS.emit({
-          type: 'WORLD RESPONSE',
+          id: type === 'DESIRE_SIGNAL' ? 'activity-' + event.id : undefined,
+          type: type === 'DESIRE_SIGNAL' ? 'desire-writing' : 'WORLD RESPONSE',
+          kind: type === 'DESIRE_SIGNAL' ? 'desire-writing' : undefined,
           title,
           body,
           source: 'world-autonomy',
           canon: 'experimental',
-          lineage: {region:from, target:to, phase:state.phase, rule:type},
+          lineage: {event_id:event.id, region:from, target:to, phase:state.phase, rule:type, actor:event.actor || null, target_character:event.target || null, desire:event.desire || null, category:event.category || null},
           dreamable: true,
           quietness: 'high'
         });
@@ -458,7 +460,47 @@
       true,
       {actor, target, desire:signal, category:'desire'}
     );
+    void inscribeDesireEvent(event);
     return {ok:true, signal, event};
+  }
+
+
+  async function inscribeDesireEvent(event) {
+    event.inscription_status = 'pending';
+    persist();
+    try {
+      const response = await fetch('/api/geehub/inscribe', {
+        method:'POST',
+        headers:{'content-type':'application/json'},
+        body:JSON.stringify({event:{
+          id:event.id,
+          at:event.at,
+          type:'DESIRE_SIGNAL',
+          artifact_kind:'desire-writing',
+          actor:event.actor || null,
+          target:event.target || null,
+          desire:event.desire,
+          category:'desire',
+          region_id:event.from || null,
+          title:event.title,
+          body:event.body,
+          source:'world-autonomy'
+        }})
+      });
+      const receipt = await response.json();
+      if (!response.ok || !receipt.ok) throw new Error(receipt.error || 'Inscription failed');
+      event.inscription_status = 'durable';
+      event.inscription_receipt = receipt.event?.status || 'OCCURRED_AND_INSCRIBED';
+      delete event.inscription_error;
+    } catch (error) {
+      event.inscription_status = 'local-only';
+      event.inscription_error = String(error?.message || error).slice(0, 240);
+    }
+    persist();
+    document.dispatchEvent(new CustomEvent('geehub:desire-inscription', {
+      detail:{id:event.id, status:event.inscription_status, receipt:event.inscription_receipt || null, error:event.inscription_error || null}
+    }));
+    return event.inscription_status;
   }
 
   function setRunMode(active) {

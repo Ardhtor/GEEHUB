@@ -142,6 +142,7 @@
     ],
     "response_rule": "A signal changes the experiencing character's attention and can generate voiced observation, dialogue, invitations, pauses, and movement. The character's response must remain distinct and continuous with his established temperament.",
     "agency_rule": "Arousal or attraction describes the experiencing character only. It does not establish reciprocity, permission, or consent. Do not infer another character's interest; invitations and changes in proximity leave room for an actual answer, including refusal or no response.",
-    "persistence_rule": "Record the signal as a DESIRE_SIGNAL event through the existing world artifact and activity path, retaining actor, optional target, kind, location, timestamp, and the authored narrative passage."
+    "persistence_rule": "Record the signal as a DESIRE_SIGNAL event through POST /api/geehub/inscribe, retaining actor, optional target, kind, location, timestamp, and the authored narrative passage. Keep it local-only when no inscription receipt is returned; never label it durable without confirmation.",
+    "failure_rule": "If the inscription endpoint is unavailable or rejects the event, preserve the signal and authored passage in local state and the configured artifact outbox, visibly marked local-only until a later successful inscription."
   }
 }

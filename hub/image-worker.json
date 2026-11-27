@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "id": "geehub-image-worker",
-  "purpose": "Turn an open IMAGE need into a concrete generation job and resolve the result back into GEEHUB.",
+  "purpose": "Create a new visual or edit a selected source image, then resolve the result into GEEHUB memory.",
   "adapter": "automatic1111",
   "endpoint": "http://127.0.0.1:7860",
   "api": "/sdapi/v1/txt2img",
@@ -19,5 +19,26 @@
       "immersive game scene"
     ]
   },
-  "rule": "RUN creates the job first. Generation is attempted when the configured visual engine is reachable. A returned image becomes a memory artifact."
+  "rule": "RUN creates the job first. With a selected source image, the worker calls the configured image-to-image API; without one, it uses text-to-image. A returned image becomes a memory artifact. Source image bytes are never committed to this public repository.",
+  "editApi": "/sdapi/v1/img2img",
+  "sourceInput": {
+    "mode": "browser file selection",
+    "maxBytes": 15728640,
+    "acceptedTypes": [
+      "image/png",
+      "image/jpeg",
+      "image/webp",
+      "image/bmp"
+    ],
+    "persistence": "Source bytes stay in the browser request and are not written to the public repository or the JSON job queue."
+  },
+  "defaultEditEncounter": {
+    "title": "CHEST EXPANSION / CAR PORTRAIT",
+    "instruction": "Preserve the same adult man, face, beard, expression, hair, head size, seated pose, hand placement, car seat, dashboard, window view, daylight, camera angle and framing. Make his pectorals substantially larger, wider, deeper, thicker, rounder and more prominent. Enlarge deltoids, traps and upper arms enough to support the chest. Keep coherent anatomy and natural pores and fine body hair; avoid tiled, mesh or reptilian skin texture. Photographic, nonsexual fitness portrait.",
+    "denoisingStrength": 0.45,
+    "range": [
+      0.2,
+      0.75
+    ]
+  }
 }

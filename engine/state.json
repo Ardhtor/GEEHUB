@@ -1,5 +1,5 @@
 {
-  "pulse": 388,
+  "pulse": 389,
   "events": [
     {
       "pulse": 1,
@@ -7553,6 +7553,28 @@
       "occurred_at": "2026-11-27T14:52:17.092743+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000389",
+      "pulse": 389,
+      "time": "2026-11-27T23:20:06.734820+00:00",
+      "actor": "LUKE",
+      "world": "THE FACILITY",
+      "region_id": "facility",
+      "previous_region_id": "facility",
+      "phase": "ATMOSPHERE",
+      "source": "world.json",
+      "desire_state": "attention",
+      "action": "SETH: The ventilation hum settles into a lower register. Blue light crosses the observation glass and shows the technician's reflection over the broad figure behind it.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-27T23:20:06.734820+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -7603,13 +7625,13 @@
     "northgate-library": 360,
     "athletic-commons": 336.5
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 10,
     "creative/luke-bwomph.json": 20,
     "lore/DEEP_LORE.md": 17,
-    "world.json": 19,
+    "world.json": 20,
     "research/embodied-scale/README.md": 19,
     "archive/male-harem/README.md": 18,
     "research/embodied-scale/colossal-escalation.json": 17,
@@ -7628,9 +7650,9 @@
     "worlds/athletic-commons/README.md": 13
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "facility",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

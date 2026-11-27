@@ -10,10 +10,10 @@ import { buildTemporalScenePlate } from "./temporal-scene-plate.js";
 import { writeTemporalScenePlateArtifact } from "./scene-plate-artifact.js";
 import { composeGrowthFrameFiles } from "./complete-frame-file-compositor.js";
 import { composeGrowthFrameSequenceFiles } from "./sequence-file-compositor.js";
+import { cameraRegistrationChecksum } from "./camera-registration.js";
 
 const videoChecksum = "c".repeat(64);
 const planChecksum = "d".repeat(64);
-const cameraChecksum = "a".repeat(64);
 
 function digest(bytes) {
   return createHash("sha256").update(bytes).digest("hex");
@@ -96,11 +96,10 @@ function makeFrames(partial = false) {
 }
 
 function makeRegistration(frames) {
-  return {
+  const registration = {
     schema: "geehub.camera-registration-evidence",
     schemaVersion: 1,
     id: "camera-lock-001",
-    checksum: cameraChecksum,
     status: "verified",
     mode: "fixed-camera",
     coordinateSpace: "source-pixel",
@@ -113,6 +112,8 @@ function makeRegistration(frames) {
       transform: { translateX: 0, translateY: 0, scale: 1, rotationDegrees: 0 }
     }))
   };
+  registration.checksum = cameraRegistrationChecksum(registration);
+  return registration;
 }
 
 async function writeJson(filePath, value) {

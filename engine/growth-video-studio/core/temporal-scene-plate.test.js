@@ -96,6 +96,15 @@ test("requires fixed-camera identity transforms", () => {
   });
 });
 
+test("rejects camera-registration evidence whose checksum no longer matches", () => {
+  const frames = makeFrames();
+  const registration = makeRegistration(frames);
+  registration.verificationMethod = "tampered-after-measurement";
+  assert.throws(() => buildTemporalScenePlate(frames, registration), {
+    code: "scene-plate-camera-registration-invalid"
+  });
+});
+
 test("rejects missing or unverified camera registration", () => {
   const frames = makeFrames();
   const registration = makeRegistration(frames);

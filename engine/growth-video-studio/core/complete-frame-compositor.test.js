@@ -2,8 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { composeGrowthFramePixels } from "./complete-frame-compositor.js";
 import { buildTemporalScenePlate } from "./temporal-scene-plate.js";
-
-const checksum = "a".repeat(64);
+import { cameraRegistrationChecksum } from "./camera-registration.js";
 
 function makeFrame(frame, timeSeconds, {
   body = [], face = [2],
@@ -34,7 +33,7 @@ function makeFrames() {
 function makePlate(frames = makeFrames()) {
   const registration = {
     schema: "geehub.camera-registration-evidence", schemaVersion: 1,
-    id: "camera-lock-001", checksum, status: "verified",
+    id: "camera-lock-001", status: "verified",
     mode: "fixed-camera", coordinateSpace: "source-pixel",
     verificationMethod: "operator-fixed-camera", width: 3, height: 1,
     frames: frames.map(frame => ({
@@ -42,6 +41,7 @@ function makePlate(frames = makeFrames()) {
       transform: { translateX: 0, translateY: 0, scale: 1, rotationDegrees: 0 }
     }))
   };
+  registration.checksum = cameraRegistrationChecksum(registration);
   return buildTemporalScenePlate(frames, registration);
 }
 

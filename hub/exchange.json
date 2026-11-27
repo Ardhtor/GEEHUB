@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-26T15:38:44.425Z",
+  "generated": "2026-11-27T00:01:52.289Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00244",
+      "at": "2026-11-27T00:01:52.289Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / BEEFYTHIQ → THE FACILITY / JOSEPH",
+      "body": "The world crossed the existing relation \"THE ROOM GETS SMALLER\" from BEEFYTHIQ into THE FACILITY. Scale increased from 18.02× to 18.14×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00244",
+      "live": true,
+      "regionId": "facility",
+      "previousRegionId": "beefythiq",
+      "relation": "THE ROOM GETS SMALLER"
+    },
     {
       "id": "scheduled-long-play-00243",
       "at": "2026-11-26T15:38:44.425Z",
@@ -1482,21 +1497,6 @@
       "regionId": "deep-lore",
       "previousRegionId": "veyrthalis",
       "relation": "DEPARTURE LEAVES A SHAPE"
-    },
-    {
-      "id": "scheduled-long-play-00147",
-      "at": "2026-11-01T20:51:42.556Z",
-      "from": "geehub-long-play",
-      "to": "tyler",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / DISCOVERY → VEYRTHALIS / TYLER",
-      "body": "The world crossed the existing relation \"THE DOOR REMEMBERS\" from DISCOVERY into VEYRTHALIS. Scale increased from 11.81× to 11.86×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00147",
-      "live": true,
-      "regionId": "veyrthalis",
-      "previousRegionId": "discovery",
-      "relation": "THE DOOR REMEMBERS"
     }
   ]
 }

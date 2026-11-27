@@ -7,8 +7,7 @@ import path from "node:path";
 import { decodeRgbaPng } from "./rgba-png.js";
 import { buildTemporalScenePlate } from "./temporal-scene-plate.js";
 import { writeTemporalScenePlateArtifact } from "./scene-plate-artifact.js";
-
-const checksum = "a".repeat(64);
+import { cameraRegistrationChecksum } from "./camera-registration.js";
 
 function makeFrame(frame, timeSeconds, {
   color = [10, 20, 30], bodyAtZero = false, faceAtZero = false
@@ -33,9 +32,9 @@ function makeFrames() {
 }
 
 function makeRegistration(frames) {
-  return {
+  const registration = {
     schema: "geehub.camera-registration-evidence", schemaVersion: 1,
-    id: "camera-lock-001", checksum, status: "verified",
+    id: "camera-lock-001", status: "verified",
     mode: "fixed-camera", coordinateSpace: "source-pixel",
     verificationMethod: "operator-fixed-camera", width: 2, height: 1,
     frames: frames.map(frame => ({
@@ -43,6 +42,8 @@ function makeRegistration(frames) {
       transform: { translateX: 0, translateY: 0, scale: 1, rotationDegrees: 0 }
     }))
   };
+  registration.checksum = cameraRegistrationChecksum(registration);
+  return registration;
 }
 
 function buildPlate(frames = makeFrames()) {

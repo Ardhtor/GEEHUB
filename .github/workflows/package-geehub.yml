@@ -32,12 +32,14 @@ jobs:
           npm test
           node --check tools/prepare-bridge-render-job.js
           node --check tools/extract-source-frames.js
+          node --check tools/register-camera.js
           node --check tools/compose-growth-frame.js
           node --check tools/compose-growth-sequence.js
           npm run prepare:render -- --help
           npm run compose:frame -- --help
           npm run compose:sequence -- --help
           npm run extract:frames -- --help
+          npm run register:camera -- --help
 
       - name: Validate Resolve Free bridge consumer
         working-directory: engine/growth-video-studio/integrations/davinci-resolve-free

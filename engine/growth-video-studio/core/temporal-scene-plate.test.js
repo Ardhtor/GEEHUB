@@ -1,8 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { buildTemporalScenePlate } from "./temporal-scene-plate.js";
-
-const checksum = "a".repeat(64);
+import { cameraRegistrationChecksum } from "./camera-registration.js";
 
 function makeFrame(frame, timeSeconds, {
   color = [10, 20, 30], bodyAtZero = false, faceAtZero = false
@@ -25,9 +24,9 @@ function makeFrames() {
   ];
 }
 function makeRegistration(frames) {
-  return {
+  const registration = {
     schema: "geehub.camera-registration-evidence", schemaVersion: 1,
-    id: "camera-lock-001", checksum, status: "verified",
+    id: "camera-lock-001", status: "verified",
     mode: "fixed-camera", coordinateSpace: "source-pixel",
     verificationMethod: "operator-fixed-camera", width: 2, height: 1,
     frames: frames.map(frame => ({
@@ -35,6 +34,8 @@ function makeRegistration(frames) {
       transform: { translateX: 0, translateY: 0, scale: 1, rotationDegrees: 0 }
     }))
   };
+  registration.checksum = cameraRegistrationChecksum(registration);
+  return registration;
 }
 
 test("reconstructs body-hidden pixels from stable opaque donors and records provenance", () => {
@@ -89,6 +90,7 @@ test("requires fixed-camera identity transforms", () => {
   const frames = makeFrames();
   const registration = makeRegistration(frames);
   registration.frames[1].transform.translateX = 0.25;
+  registration.checksum = cameraRegistrationChecksum(registration);
   assert.throws(() => buildTemporalScenePlate(frames, registration), {
     code: "scene-plate-camera-transform-unsupported"
   });
@@ -98,6 +100,7 @@ test("rejects missing or unverified camera registration", () => {
   const frames = makeFrames();
   const registration = makeRegistration(frames);
   registration.status = "proposed";
+  registration.checksum = cameraRegistrationChecksum(registration);
   assert.throws(() => buildTemporalScenePlate(frames, registration), {
     code: "scene-plate-camera-registration-invalid"
   });
@@ -128,6 +131,7 @@ test("rejects camera-registration frame or timestamp mismatch", () => {
   const frames = makeFrames();
   const registration = makeRegistration(frames);
   registration.frames[1].timeSeconds = 1.25;
+  registration.checksum = cameraRegistrationChecksum(registration);
   assert.throws(() => buildTemporalScenePlate(frames, registration), {
     code: "scene-plate-camera-frame-mismatch"
   });

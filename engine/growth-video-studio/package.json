@@ -12,6 +12,7 @@
     "render:batch": "node tools/render-growth-batch.js",
     "extract:frames": "node tools/extract-source-frames.js",
     "compose:frame": "node tools/compose-growth-frame.js",
-    "compose:sequence": "node tools/compose-growth-sequence.js"
+    "compose:sequence": "node tools/compose-growth-sequence.js",
+    "register:camera": "node tools/register-camera.js"
   }
 }

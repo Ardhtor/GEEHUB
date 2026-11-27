@@ -2,6 +2,7 @@
  * Conservative in-memory repair of body-hidden scene pixels.
  * It copies stable donor samples; it does not synthesize or inpaint colour.
  */
+import { cameraRegistrationChecksum } from "./camera-registration.js";
 const DEFAULT_MAX_PIXELS = 2_000_000;
 const DEFAULT_MAX_FRAMES = 32;
 const DEFAULT_MAX_SAMPLES = 32_000_000;
@@ -94,7 +95,12 @@ function validateFrames(frames, limits) {
 }
 
 function validateCameraRegistration(registration, frames, width, height) {
-  if (registration?.schema !== "geehub.camera-registration-evidence" ||
+  let checksumMatches = false;
+  try {
+    checksumMatches = registration?.checksum === cameraRegistrationChecksum(registration);
+  } catch {}
+  if (!checksumMatches ||
+      registration?.schema !== "geehub.camera-registration-evidence" ||
       registration.schemaVersion !== 1 || registration.status !== "verified" ||
       registration.mode !== "fixed-camera" ||
       registration.coordinateSpace !== "source-pixel" ||

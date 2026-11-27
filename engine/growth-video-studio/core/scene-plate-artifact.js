@@ -8,6 +8,7 @@ import { createHash } from "node:crypto";
 import { lstat, mkdir, open, readFile, realpath, rm, rmdir } from "node:fs/promises";
 import path from "node:path";
 import { encodeRgbaPng } from "./rgba-png.js";
+import { cameraRegistrationChecksum } from "./camera-registration.js";
 
 const DEFAULT_MAX_PIXELS = 2_000_000;
 const DEFAULT_MAX_OUTPUT_BYTES = 128 * 1024 * 1024;
@@ -80,6 +81,7 @@ function validateArtifactInput(plate, cameraRegistration, maxPixels) {
       typeof cameraRegistration.verificationMethod !== "string" ||
       !cameraRegistration.verificationMethod.trim() ||
       !/^[a-f0-9]{64}$/i.test(cameraRegistration.checksum || "") ||
+      cameraRegistration.checksum !== cameraRegistrationChecksum(cameraRegistration) ||
       cameraRegistration.width !== width || cameraRegistration.height !== height ||
       !Array.isArray(cameraRegistration.frames) ||
       cameraRegistration.frames.length !== plate.frameNumbers.length ||

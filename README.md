@@ -15,6 +15,7 @@ The Tractus is the continuity model underneath that work. It connects events, pl
 ## Make and research
 
 - [Universal Growth Engine](docs/GROWTH.md) — the shared process for encounter, observation, research, interpretation, experiment, growth, review, and integration.
+- [Image Worker](docs/IMAGE_WORKER.md) — create images or edit a selected source image through the local visual engine.
 - [Anticipatory Presence](docs/ANTICIPATORY_PRESENCE.md) — how the hub prepares relevant possibilities before an explicit touch, and how user and assistant contributions change the environment.
 - [File Analysis Standard](docs/FILE_ANALYSIS_STANDARD.md) — inspect images, video, audio, documents, code, and archives while preserving provenance.
 - [File Analysis Studio](engine/file-analysis-studio.html) — local source inspection and structured observations.

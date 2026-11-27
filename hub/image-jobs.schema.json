@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "title": "GEEHUB IMAGE JOBS",
   "rule": "Image jobs are render instructions derived from canonical spatial recordings. Renderers consume the map and recording directly.",
   "fields": [
@@ -12,6 +12,12 @@
     "negativePrompt",
     "render",
     "output",
-    "created"
-  ]
+    "created",
+    "mode",
+    "sourceFile",
+    "denoisingStrength",
+    "endpoint",
+    "adapter"
+  ],
+  "sourceHandling": "For IMAGE_TO_IMAGE jobs, sourceFile records metadata only. The selected image bytes are submitted directly from the browser to the configured engine and are not stored in the canonical job JSON."
 }

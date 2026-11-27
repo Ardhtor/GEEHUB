@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-27T00:01:52.289Z",
+  "generated": "2026-11-27T08:39:07.802Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00245",
+      "at": "2026-11-27T08:39:07.802Z",
+      "from": "geehub-long-play",
+      "to": "chase",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / THE FACILITY → BEEFYTHIQ / CHASE",
+      "body": "The world crossed the existing relation \"THE ROOM GETS SMALLER\" from THE FACILITY into BEEFYTHIQ. Scale increased from 18.14× to 18.18×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00245",
+      "live": true,
+      "regionId": "beefythiq",
+      "previousRegionId": "facility",
+      "relation": "THE ROOM GETS SMALLER"
+    },
     {
       "id": "scheduled-long-play-00244",
       "at": "2026-11-27T00:01:52.289Z",
@@ -1482,21 +1497,6 @@
       "regionId": "luke-bwomph",
       "previousRegionId": "deep-lore",
       "relation": "THE FACE REMAINS"
-    },
-    {
-      "id": "scheduled-long-play-00148",
-      "at": "2026-11-02T00:27:00.668Z",
-      "from": "geehub-long-play",
-      "to": "andrew",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / VEYRTHALIS → DEEP LORE / ANDREW",
-      "body": "The world crossed the existing relation \"DEPARTURE LEAVES A SHAPE\" from VEYRTHALIS into DEEP LORE. Scale increased from 11.86× to 11.94×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00148",
-      "live": true,
-      "regionId": "deep-lore",
-      "previousRegionId": "veyrthalis",
-      "relation": "DEPARTURE LEAVES A SHAPE"
     }
   ]
 }

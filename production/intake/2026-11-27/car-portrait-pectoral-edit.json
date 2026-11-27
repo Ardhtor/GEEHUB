@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "intake_id": "geehub-intake-2026-11-27-car-portrait-pectoral-edit",
+  "status": "SOURCE_RECORDED_RENDER_PENDING",
+  "source": {
+    "provider": "ChatGPT conversation attachment",
+    "file_id": "file_00000000a63481f5b47e032fec704c16",
+    "filename": "Muscular Bearded Man in Car(2).png",
+    "media_type": "image/png",
+    "width": 1028,
+    "height": 1529,
+    "sha256": "9d2b57b7d1fd56f833e2b61e5e63d5ca44e53a937dd6df0b62fc9b4e3080cf5c",
+    "storage": "Original retained as conversation attachment; binary intentionally not copied to this public repository."
+  },
+  "observation": {
+    "frame": "single portrait photograph",
+    "visible": "Adult bearded man seated inside a car; close portrait framing; very large bare pectoral muscles; one forearm crosses the lower chest; daylight and a leafy tree are visible through the side window.",
+    "inspection_level": "content inspected"
+  },
+  "edit": {
+    "id": "car-portrait-pectoral-expansion-001",
+    "title": "CHEST EXPANSION / CAR PORTRAIT",
+    "mode": "IMAGE_TO_IMAGE",
+    "engine": "Automatic1111-compatible local API",
+    "endpoint": "http://127.0.0.1:7860/sdapi/v1/img2img",
+    "denoising_strength": 0.45,
+    "denoising_strength_range": [
+      0.2,
+      0.75
+    ],
+    "prompt": "Edit the selected photograph of the same adult man. Preserve his recognizable face, beard, hair, expression, head size, seated pose, hand placement, car seat, dashboard, window view, daylight, camera angle, framing and perspective. Make his pectoral muscles substantially larger than in the source: much broader, deeper, thicker, rounder and more prominent, with exceptionally full developed bodybuilding pecs. Increase the deltoids, traps and upper arms enough to support the larger chest while retaining the same person and coherent anatomy. Keep natural skin pores and fine body hair; use realistic skin texture without a repeating scale, mesh or reptilian pattern. Photographic fitness portrait, natural light, nonsexual presentation.",
+    "negative_prompt": "different person, face change, beard change, expression change, pose change, hand deformity, extra fingers, extra limbs, broken anatomy, melted contours, reptilian skin, mesh texture, camera change, background change, text, watermark, poster, infographic, sexualized framing",
+    "status": "READY_FOR_LOCAL_RENDER",
+    "output": null
+  },
+  "continuity": {
+    "preserve": [
+      "face and beard",
+      "expression",
+      "head scale",
+      "seated pose",
+      "hand placement",
+      "car interior",
+      "window and outdoor view",
+      "lighting",
+      "camera angle and framing"
+    ],
+    "change": [
+      "pectoral width, depth, thickness and projection",
+      "supporting deltoid, trapezius and upper-arm mass"
+    ],
+    "surface": "Natural photographic skin with pores and fine body hair; no repeating scale or mesh pattern."
+  },
+  "render_note": "The GEEHUB worker now supports this source-conditioned edit. The source image must be selected in the local GEEHUB page; its bytes are sent directly to the configured local engine and are not stored in the repository. No render has been produced by this intake record."
+}

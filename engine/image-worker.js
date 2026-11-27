@@ -128,7 +128,7 @@
   function render() {
     const jobs = readJobs();
     const sourcePanel = state.sourceDataUrl
-      ? '<img src="' + esc(state.sourceDataUrl) + '" alt="Selected source image"><div class="image-worker-file">' + esc(state.sourceName) + ' / ' + state.sourceWidth + ' × ' + state.sourceHeight + ' / ' + Math.round(state.sourceBytes / 1024) + ' KB</div><button id="clearImageSource" class="image-worker-clear-source" type="button">REMOVE SOURCE</button>
+      ? '<img src="' + esc(state.sourceDataUrl) + '" alt="Selected source image"><div class="image-worker-file">' + esc(state.sourceName) + ' / ' + state.sourceWidth + ' × ' + state.sourceHeight + ' / ' + Math.round(state.sourceBytes / 1024) + ' KB</div><button id="clearImageSource" class="image-worker-clear-source" type="button">REMOVE SOURCE</button>'
       : '<span>SELECT A SOURCE IMAGE TO EDIT</span>';
     const resultPanel = state.last?.html || '<span>NO IMAGE RETURNED YET.</span>';
 

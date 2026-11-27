@@ -33,12 +33,18 @@
     "persistence": "Source bytes stay in the browser request and are not written to the public repository or the JSON job queue."
   },
   "defaultEditEncounter": {
-    "title": "CHEST EXPANSION / CAR PORTRAIT",
-    "instruction": "Preserve the same adult man, face, beard, expression, hair, head size, seated pose, hand placement, car seat, dashboard, window view, daylight, camera angle and framing. Make his pectorals substantially larger, wider, deeper, thicker, rounder and more prominent. Enlarge deltoids, traps and upper arms enough to support the chest. Keep coherent anatomy and natural pores and fine body hair; avoid tiled, mesh or reptilian skin texture. Photographic, nonsexual fitness portrait.",
-    "denoisingStrength": 0.45,
+    "title": "EXTREME BODYBUILDING SCALE / CAR PORTRAIT",
+    "instruction": "Edit the selected photograph of the same adult man; the source photograph, not a new person, remains the identity reference. Preserve his recognizable face, beard, hair, expression, head size, seated pose, hand placement, car seat, dashboard, window view, daylight, camera angle, framing and perspective. Use the monumental classic-era heavyweight bodybuilding scale associated with Lou Ferrigno as a physique reference only, but exaggerate the musculature several times beyond that already extreme archetype. Do not copy Lou Ferrigno's face or identity; keep the photographed man unmistakably himself. Make the entire visible upper body several times larger in muscular volume: an enormous, exceptionally broad, deep, thick, round chest with huge projecting pectorals; massive deltoids, towering traps, greatly enlarged upper arms, and a much thicker torso and back. Let the chest dominate the portrait and fill much more of the available frame. Keep the man seated in the same car and preserve the original camera relationship; the cabin and seat provide scale rather than becoming a different setting. Keep the head and face at their original scale while the body expands around them. Connect every muscle group with coherent anatomy and believable transitions at shoulders, armpits and upper arms. Keep natural skin pores and fine body hair; use realistic skin texture without a repeating scale, mesh or reptilian pattern. Photographic fitness portrait, natural light, nonsexual presentation.",
+    "denoisingStrength": 0.62,
     "range": [
       0.2,
       0.75
-    ]
+    ],
+    "physiqueReference": {
+      "name": "Lou Ferrigno",
+      "use": "physique-scale reference only",
+      "treatment": "classic heavyweight bodybuilding mass exaggerated several times beyond the archetype",
+      "identity_copy": false
+    }
   }
 }

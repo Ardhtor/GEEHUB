@@ -15,6 +15,7 @@
 .image-worker-source,.image-result{position:relative;box-sizing:border-box;min-width:0;min-height:240px;border:1px solid rgba(255,255,255,.1);background:rgba(0,0,0,.18);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;overflow:hidden;padding:16px;color:inherit}
 .image-worker-panel-label{align-self:flex-start;font:10px monospace;letter-spacing:.14em;opacity:.65}
 .image-worker-source img,.image-worker-image{display:block;width:100%;height:auto;max-height:620px;object-fit:contain}
+.image-worker-clear-source{background:transparent;color:inherit;border:1px solid rgba(255,255,255,.2);padding:7px 10px;font:10px monospace;letter-spacing:.1em;cursor:pointer}.image-worker-clear-source:hover{background:rgba(255,255,255,.08)}
 .image-worker-file,.image-worker-return{font:10px monospace;letter-spacing:.1em;opacity:.8;text-align:center;overflow-wrap:anywhere}
 .image-worker-download{font:11px monospace;letter-spacing:.12em;color:inherit;padding:8px 12px;border:1px solid rgba(255,255,255,.2);text-decoration:none}
 .image-worker-download:hover{background:rgba(255,255,255,.08)}

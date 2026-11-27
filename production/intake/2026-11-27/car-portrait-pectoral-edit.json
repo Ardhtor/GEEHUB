@@ -19,19 +19,25 @@
   },
   "edit": {
     "id": "car-portrait-pectoral-expansion-001",
-    "title": "CHEST EXPANSION / CAR PORTRAIT",
+    "title": "EXTREME BODYBUILDING SCALE / CAR PORTRAIT",
     "mode": "IMAGE_TO_IMAGE",
     "engine": "Automatic1111-compatible local API",
     "endpoint": "http://127.0.0.1:7860/sdapi/v1/img2img",
-    "denoising_strength": 0.45,
+    "denoising_strength": 0.62,
     "denoising_strength_range": [
       0.2,
       0.75
     ],
-    "prompt": "Edit the selected photograph of the same adult man. Preserve his recognizable face, beard, hair, expression, head size, seated pose, hand placement, car seat, dashboard, window view, daylight, camera angle, framing and perspective. Make his pectoral muscles substantially larger than in the source: much broader, deeper, thicker, rounder and more prominent, with exceptionally full developed bodybuilding pecs. Increase the deltoids, traps and upper arms enough to support the larger chest while retaining the same person and coherent anatomy. Keep natural skin pores and fine body hair; use realistic skin texture without a repeating scale, mesh or reptilian pattern. Photographic fitness portrait, natural light, nonsexual presentation.",
+    "prompt": "Edit the selected photograph of the same adult man; the source photograph, not a new person, remains the identity reference. Preserve his recognizable face, beard, hair, expression, head size, seated pose, hand placement, car seat, dashboard, window view, daylight, camera angle, framing and perspective. Use the monumental classic-era heavyweight bodybuilding scale associated with Lou Ferrigno as a physique reference only, but exaggerate the musculature several times beyond that already extreme archetype. Do not copy Lou Ferrigno's face or identity; keep the photographed man unmistakably himself. Make the entire visible upper body several times larger in muscular volume: an enormous, exceptionally broad, deep, thick, round chest with huge projecting pectorals; massive deltoids, towering traps, greatly enlarged upper arms, and a much thicker torso and back. Let the chest dominate the portrait and fill much more of the available frame. Keep the man seated in the same car and preserve the original camera relationship; the cabin and seat provide scale rather than becoming a different setting. Keep the head and face at their original scale while the body expands around them. Connect every muscle group with coherent anatomy and believable transitions at shoulders, armpits and upper arms. Keep natural skin pores and fine body hair; use realistic skin texture without a repeating scale, mesh or reptilian pattern. Photographic fitness portrait, natural light, nonsexual presentation.",
     "negative_prompt": "different person, face change, beard change, expression change, pose change, hand deformity, extra fingers, extra limbs, broken anatomy, melted contours, reptilian skin, mesh texture, camera change, background change, text, watermark, poster, infographic, sexualized framing",
     "status": "READY_FOR_LOCAL_RENDER",
-    "output": null
+    "output": null,
+    "physique_reference": {
+      "name": "Lou Ferrigno",
+      "use": "physique-scale reference only",
+      "treatment": "classic heavyweight bodybuilding mass exaggerated several times beyond the archetype",
+      "identity_copy": false
+    }
   },
   "continuity": {
     "preserve": [
@@ -46,10 +52,13 @@
       "camera angle and framing"
     ],
     "change": [
-      "pectoral width, depth, thickness and projection",
-      "supporting deltoid, trapezius and upper-arm mass"
+      "several-fold increase in visible upper-body muscular volume",
+      "extremely broad, deep, thick and projecting pectorals",
+      "massive deltoids and traps",
+      "greatly enlarged upper arms",
+      "much thicker torso and back"
     ],
     "surface": "Natural photographic skin with pores and fine body hair; no repeating scale or mesh pattern."
   },
-  "render_note": "The GEEHUB worker now supports this source-conditioned edit. The source image must be selected in the local GEEHUB page; its bytes are sent directly to the configured local engine and are not stored in the repository. No render has been produced by this intake record."
+  "render_note": "The edit specification now calls for a several-fold increase in visible upper-body muscular volume using classic Lou Ferrigno-era heavyweight bodybuilding scale as a physique reference only. The photographed man's identity remains the face reference. The source must be selected in the local GEEHUB page; bytes go directly to the configured local engine. Render remains pending."
 }

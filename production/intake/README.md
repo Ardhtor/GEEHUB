@@ -7,3 +7,4 @@ This is the local navigation page for `production/intake/`. The lists below link
 ## Subdirectories
 
 - [`2026-11-03/`](./2026-11-03/README.md)
+- [`2026-11-27/`](./2026-11-27/README.md) — car portrait source edit.

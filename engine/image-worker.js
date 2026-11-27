@@ -19,10 +19,12 @@
   };
 
   const DEFAULT_EDIT_PROMPT = [
-    'Edit the selected photograph of the same adult man.',
+    'Edit the selected photograph of the same adult man; the source photograph, not a new person, remains the identity reference.',
     'Preserve his recognizable face, beard, hair, expression, head size, seated pose, hand placement, car seat, dashboard, window view, daylight, camera angle, framing and perspective.',
-    'Make his pectoral muscles substantially larger than in the source: much broader, deeper, thicker, rounder and more prominent, with exceptionally full developed bodybuilding pecs.',
-    'Increase the deltoids, traps and upper arms enough to support the larger chest while retaining the same person and coherent anatomy.',
+    'Use the monumental classic-era heavyweight bodybuilding scale associated with Lou Ferrigno as a physique reference only, but exaggerate the musculature several times beyond that already extreme archetype. Do not copy Lou Ferrigno\'s face or identity; keep the photographed man unmistakably himself.',
+    'Make the entire visible upper body several times larger in muscular volume: an enormous, exceptionally broad, deep, thick, round chest with huge projecting pectorals; massive deltoids, towering traps, greatly enlarged upper arms, and a much thicker torso and back.',
+    'Let the chest dominate the portrait and fill much more of the available frame. Keep the man seated in the same car and preserve the original camera relationship; the cabin and seat provide scale rather than becoming a different setting.',
+    'Keep the head and face at their original scale while the body expands around them. Connect every muscle group with coherent anatomy and believable transitions at shoulders, armpits and upper arms.',
     'Keep natural skin pores and fine body hair; use realistic skin texture without a repeating scale, mesh or reptilian pattern.',
     'Photographic fitness portrait, natural light, nonsexual presentation.'
   ].join(' ');
@@ -139,7 +141,7 @@
         '<label>LOCAL IMAGE ENGINE<input id="imageEndpoint" value="' + esc(getEndpoint()) + '"></label>' +
         '<label class="image-worker-wide">SOURCE IMAGE<input id="imageSourceFile" type="file" accept="image/png,image/jpeg,image/webp,image/bmp"></label>' +
         '<label class="image-worker-wide">EDIT INSTRUCTION<textarea id="imagePrompt" rows="4">' + esc(state.prompt) + '</textarea></label>' +
-        '<label class="image-worker-strength">EDIT STRENGTH <span id="imageStrengthValue">0.45</span><input id="imageStrength" type="range" min="0.20" max="0.75" step="0.05" value="0.45"></label>' +
+        '<label class="image-worker-strength">EDIT STRENGTH <span id="imageStrengthValue">0.62</span><input id="imageStrength" type="range" min="0.20" max="0.75" step="0.05" value="0.62"></label>' +
         '<button id="buildImage" class="run-button" type="button" ' + (state.running ? 'disabled' : '') + '>' + (state.sourceDataUrl ? 'EDIT SOURCE IMAGE' : 'BUILD NEW IMAGE') + '</button>' +
       '</div>' +
       '<div class="image-worker-media-grid">' +

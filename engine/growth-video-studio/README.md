@@ -591,3 +591,28 @@ The estimator samples normalized 3×3 luminance patches only where both masks ar
 This is deliberately a narrow verifier, not a general camera tracker. It does not estimate rotation, scale, perspective, rolling shutter, or optical flow. It also does not synthesize camera motion compensation. The observed translation is recorded as the target-frame sample offset relative to the reference, not as a corrective warp.
 
 The current increment is an in-memory core primitive. It does not yet load source PNGs and masks from the Dropbox exchange, bind the record to the source-frame index/segmentation sidecar digests, or provide a CLI. The scene-plate intake still relies on its existing externally supplied camera-registration record; wiring the new producer into that file boundary and independently recomputing the registration checksum is the next step. The ten focused synthetic tests passed in a Node 22.16.0 isolated harness. Package workflow [45891774660](https://github.com/Ardhtor/GEEHUB/actions/runs/45891774660) passed 203/203 Node tests, 14/14 Resolve Free Lua tests, Lua 5.4 syntax validation, package construction, and artifact upload. No user footage or local Resolve/Dropbox runtime has been exercised.
+
+
+## Manifest-bound file-backed camera registration
+
+`core/camera-registration-files.js` adds `estimateFixedCameraRegistrationFromFiles()` and `readCameraRegistrationArtifact()`. The `npm run register:camera` command accepts the bridge manifest, the registered segmentation frame-set id, the extracted `source-frame-index.json`, and a new output JSON path:
+
+~~~bash
+GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \
+  npm run register:camera -- \
+  ./bridge-manifest.json \
+  segmentation-frame-set-id \
+  ./source-frames/source-frame-index.json \
+  ./camera-registration.json
+~~~
+
+The worker verifies the bridge manifest and its immutable source checksum, resolves the exact manifest-registered segmentation sidecar, and checks the sidecar's SHA-256. The sidecar must describe the same source asset, sequence, frame range, dimensions, FPS, and timestamps as the source-frame index. Each source PNG is rehashed against its index entry and decoded. Each body and protected-face mask is resolved beneath the configured Dropbox root without following symlinks, rehashed against the sidecar, decoded as an 8-bit binary grayscale PNG, and checked for matching dimensions. The existing masked-background estimator then measures the decoded frames; the file worker does not duplicate its patch-search logic.
+
+The output camera-registration JSON contains the measurement plus a `geehub.camera-registration-file-evidence.v1` record binding the manifest revision and digest, segmentation frame-set URI and digest, source-index digest, and every source/mask file digest. A sibling `.receipt.json` binds the artifact's byte digest. Both files are created exclusively and read back. `readCameraRegistrationArtifact()` recomputes the record checksum before returning it. `buildTemporalScenePlate()` and `writeTemporalScenePlateArtifact()` now also recompute that checksum, so changing a measurement or its file evidence without updating the checksum is rejected.
+
+The worker defaults to a 2-million-pixel, 32-frame, 384 MiB decoded-buffer, and 512 MiB total-input ceiling. It measures integer translation only, with the existing ±3-pixel default search. A moving camera or insufficient background evidence is still written as an `unverified` record; the scene-plate builder refuses it. A verified fixed-camera measurement does not prove that the indexed PNGs were derived from the original video: FFmpeg is not rerun here and `sourceFrameDerivationVerified` remains false. Binary mask decoding also does not establish anatomical correctness, so `pixelSemanticsVerified` remains false.
+
+The package workflow [46060015728](https://github.com/Ardhtor/GEEHUB/actions/runs/46060015728) passed 212/212 Node tests, all 14 Resolve Free Lua tests, Lua 5.4 syntax validation, the new CLI syntax/help checks, portable package construction, and artifact upload. Eight new file-backed camera-registration tests cover fixed and moving cameras, source PNG tampering, mask tampering, manifest-sidecar tampering, output collisions, artifact checksum tampering, and timestamp lineage. A separate scene-plate test confirms that a modified measurement is rejected when its checksum is stale.
+
+The companion data-validation workflow [46060015731](https://github.com/Ardhtor/GEEHUB/actions/runs/46060015731) passed its other checks but still fails browser repository-link validation for the four pre-existing stale tuples `information-portability`, `lineage-pantheon`, `hubby`, and `media-tools`. No local Mac, Dropbox mirror, Resolve session, or personal footage was accessed.
+

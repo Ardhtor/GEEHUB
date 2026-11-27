@@ -60,5 +60,13 @@
     ],
     "surface": "Natural photographic skin with pores and fine body hair; no repeating scale or mesh pattern."
   },
-  "render_note": "The edit specification now calls for a several-fold increase in visible upper-body muscular volume using classic Lou Ferrigno-era heavyweight bodybuilding scale as a physique reference only. The photographed man's identity remains the face reference. The source must be selected in the local GEEHUB page; bytes go directly to the configured local engine. Render remains pending."
+  "render_note": "The edit specification now calls for a several-fold increase in visible upper-body muscular volume using classic Lou Ferrigno-era heavyweight bodybuilding scale as a physique reference only. The photographed man's identity remains the face reference. The source must be selected in the local GEEHUB page; bytes go directly to the configured local engine. Render remains pending.",
+  "spiritual_interpretation": {
+    "category": "INTERPRETATION",
+    "attributed_to": "user",
+    "statement": "That is their spirituality: devotion expressed through the pursuit, shaping, scale, and transformation of the body.",
+    "scope": "This is the user's reading of the bodybuilding ideal and the people represented by this visual material; it is not presented as a fact inferred from the photograph alone.",
+    "relation_to_image": "The extraordinary physique is treated as an expression of devotion and meaning, not merely as a measurement target or decorative aesthetic.",
+    "spiritual_layer": "docs/SPIRITUAL_INFORMATION.md"
+  }
 }

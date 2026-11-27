@@ -10,6 +10,7 @@ Use these records to operate and extend GEEHUB. Start with the workbench for act
 - [Tractus Continuity Contract](TRACTUS_CONTINUITY_CONTRACT.md) — event, state, narrative, and artifact continuity.
 - [Tractus Protection Architecture](TRACTUS_PROTECTION_ARCHITECTURE.md) — protection rules and actual control status.
 - [File Analysis Standard](FILE_ANALYSIS_STANDARD.md) — evidence, provenance, interpretation, and source inspection.
+- [Image Worker](IMAGE_WORKER.md) — source-image editing and visual generation through the local engine.
 - [Dropbox Corpus Map](DROPBOX_CORPUS_MAP.md) — verified relationship between Dropbox production and repository sources.
 - [Information Portability](INFORMATION_PORTABILITY.md) — propagation of consequential information.
 - [Chat ↔ World Asset Memory Bridge](CHAT_ASSET_MEMORY_BRIDGE.md) — conversation and visual-source continuity.

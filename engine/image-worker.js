@@ -49,6 +49,8 @@
     sourceDataUrl: '',
     sourceName: '',
     sourceBytes: 0,
+    sourceWidth: 0,
+    sourceHeight: 0,
     prompt: DEFAULT_EDIT_PROMPT
   };
 
@@ -99,6 +101,25 @@
     });
   }
 
+  function imageDimensions(dataUrl) {
+    return new Promise((resolve, reject) => {
+      const image = new Image();
+      image.onload = () => resolve({width:image.naturalWidth, height:image.naturalHeight});
+      image.onerror = () => reject(new Error('SOURCE_IMAGE_INVALID'));
+      image.src = dataUrl;
+    });
+  }
+
+  function getEndpoint() {
+    try { return localStorage.getItem('geehub-image-endpoint') || CONFIG.endpoint; }
+    catch { return CONFIG.endpoint; }
+  }
+
+  function setEndpoint(value) {
+    try { localStorage.setItem('geehub-image-endpoint', value); }
+    catch { /* Endpoint preference is optional; image jobs can still run. */ }
+  }
+
   function rawBase64(dataUrl) {
     const comma = dataUrl.indexOf(',');
     return comma >= 0 ? dataUrl.slice(comma + 1) : dataUrl;
@@ -107,7 +128,7 @@
   function render() {
     const jobs = readJobs();
     const sourcePanel = state.sourceDataUrl
-      ? '<img src="' + esc(state.sourceDataUrl) + '" alt="Selected source image"><div class="image-worker-file">' + esc(state.sourceName) + ' / ' + Math.round(state.sourceBytes / 1024) + ' KB</div>'
+      ? '<img src="' + esc(state.sourceDataUrl) + '" alt="Selected source image"><div class="image-worker-file">' + esc(state.sourceName) + ' / ' + state.sourceWidth + ' × ' + state.sourceHeight + ' / ' + Math.round(state.sourceBytes / 1024) + ' KB</div><button id="clearImageSource" class="image-worker-clear-source" type="button">REMOVE SOURCE</button>
       : '<span>SELECT A SOURCE IMAGE TO EDIT</span>';
     const resultPanel = state.last?.html || '<span>NO IMAGE RETURNED YET.</span>';
 
@@ -115,7 +136,7 @@
       '<div class="image-worker-head"><div><div class="eyebrow">VISUAL SYNTHESIS / IMAGE WORKER</div><h2>CREATE OR EDIT AN IMAGE.</h2><p>Select a source photograph to make an identity-preserving edit, or leave it empty to create a new image.</p></div><div class="image-worker-status">' + (state.running ? 'BUILDING IMAGE' : 'READY / ' + jobs.length + ' JOBS') + '</div></div>' +
       '<div class="image-worker-console">' +
         '<label>JOB NAME<input id="imageEncounter" value="' + esc(state.last?.title || CONFIG.defaultEncounter.title) + '"></label>' +
-        '<label>LOCAL IMAGE ENGINE<input id="imageEndpoint" value="' + esc(localStorage.getItem('geehub-image-endpoint') || CONFIG.endpoint) + '"></label>' +
+        '<label>LOCAL IMAGE ENGINE<input id="imageEndpoint" value="' + esc(getEndpoint()) + '"></label>' +
         '<label class="image-worker-wide">SOURCE IMAGE<input id="imageSourceFile" type="file" accept="image/png,image/jpeg,image/webp,image/bmp"></label>' +
         '<label class="image-worker-wide">EDIT INSTRUCTION<textarea id="imagePrompt" rows="4">' + esc(state.prompt) + '</textarea></label>' +
         '<label class="image-worker-strength">EDIT STRENGTH <span id="imageStrengthValue">0.45</span><input id="imageStrength" type="range" min="0.20" max="0.75" step="0.05" value="0.45"></label>' +
@@ -130,7 +151,7 @@
     fileInput.addEventListener('change', async event => {
       const file = event.target.files?.[0];
       if (!file) return;
-      if (!file.type.startsWith('image/')) {
+      if (!['image/png','image/jpeg','image/webp','image/bmp'].includes(file.type)) {
         state.last = {title:'SOURCE IMAGE', html:'<span>CHOOSE A PNG, JPEG, WEBP OR BMP IMAGE.</span>'};
         render();
         return;
@@ -142,14 +163,26 @@
       }
       try {
         state.sourceDataUrl = await fileToDataUrl(file);
+        const dimensions = await imageDimensions(state.sourceDataUrl);
         state.sourceName = file.name;
         state.sourceBytes = file.size;
+        state.sourceWidth = dimensions.width;
+        state.sourceHeight = dimensions.height;
         state.last = null;
         render();
       } catch (error) {
         state.last = {title:'SOURCE IMAGE', html:'<span>COULD NOT READ SOURCE IMAGE.</span>'};
         render();
       }
+    });
+
+    host.querySelector('#clearImageSource')?.addEventListener('click', () => {
+      state.sourceDataUrl = '';
+      state.sourceName = '';
+      state.sourceBytes = 0;
+      state.sourceWidth = 0;
+      state.sourceHeight = 0;
+      render();
     });
 
     host.querySelector('#imagePrompt').addEventListener('input', event => {
@@ -221,13 +254,15 @@
     const sourceFile = sourceDataUrl ? {
       name: state.sourceName,
       bytes: state.sourceBytes,
-      type: sourceDataUrl.slice(5, sourceDataUrl.indexOf(';'))
+      type: sourceDataUrl.slice(5, sourceDataUrl.indexOf(';')),
+      width: state.sourceWidth,
+      height: state.sourceHeight
     } : null;
     const denoisingStrength = Number(host.querySelector('#imageStrength')?.value || 0.45);
     const mode = sourceDataUrl ? 'IMAGE_TO_IMAGE' : 'TEXT_TO_IMAGE';
 
     state.running = true;
-    localStorage.setItem('geehub-image-endpoint', endpoint);
+    setEndpoint(endpoint);
     render();
 
     const job = queueJob(title, prompt, mode, sourceFile, denoisingStrength, endpoint);
@@ -241,6 +276,8 @@
             negative_prompt: DEFAULT_NEGATIVE_PROMPT,
             init_images: [rawBase64(sourceDataUrl)],
             denoising_strength: Math.max(0.20, Math.min(0.75, denoisingStrength)),
+            width: Math.max(64, Math.round(state.sourceWidth / 8) * 8),
+            height: Math.max(64, Math.round(state.sourceHeight / 8) * 8),
             resize_mode: 0,
             steps: 32,
             cfg_scale: 6.5,

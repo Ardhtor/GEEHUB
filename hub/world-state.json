@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00247.json",
+  "activeRecording": "./recordings/scheduled-recording-00248.json",
   "activeEncounter": {
-    "regionId": "embodied-scale",
-    "regionName": "EMBODIED SCALE",
+    "regionId": "colossal-escalation",
+    "regionName": "COLOSSAL ESCALATION",
     "subject": {
-      "agent": "tyler",
-      "scale": 18.26,
+      "agent": "andrew",
+      "scale": 18.34,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / THE FACILITY → EMBODIED SCALE / TYLER",
+    "intent": "LONG PLAY / EMBODIED SCALE → COLOSSAL ESCALATION / ANDREW",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 18.21× → 18.26×",
-      "THE FACILITY → EMBODIED SCALE",
-      "relation: THE FLOOR REPLIES",
+      "scale 18.26× → 18.34×",
+      "EMBODIED SCALE → COLOSSAL ESCALATION",
+      "relation: THE OLD WORLD FITS NO MORE",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "facility"
+    "previousRegionId": "embodied-scale"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-28T01:37:24.421Z",
+  "snapshot": "2026-11-28T09:28:33.148Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 247,
-    "agent": "tyler",
-    "previousRegionId": "facility",
-    "regionId": "embodied-scale",
-    "relation": "THE FLOOR REPLIES",
+    "cycle": 248,
+    "agent": "andrew",
+    "previousRegionId": "embodied-scale",
+    "regionId": "colossal-escalation",
+    "relation": "THE OLD WORLD FITS NO MORE",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 18.21,
-    "scale": 18.26,
-    "recording": "scheduled-recording-00247",
-    "at": "2026-11-28T01:37:24.421Z"
+    "previousScale": 18.26,
+    "scale": 18.34,
+    "recording": "scheduled-recording-00248",
+    "at": "2026-11-28T09:28:33.148Z"
   }
 }

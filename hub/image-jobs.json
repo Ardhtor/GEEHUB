@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00248",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00248.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "EMBODIED SCALE → COLOSSAL ESCALATION / ANDREW",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00248. Travel from EMBODIED SCALE into COLOSSAL ESCALATION through the relation \"THE OLD WORLD FITS NO MORE\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 18.26× to 18.34× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-11-28T09:28:33.148Z",
+      "lineage": {
+        "from": "embodied-scale",
+        "to": "colossal-escalation",
+        "relation": "THE OLD WORLD FITS NO MORE",
+        "cycle": 248
+      }
+    },
+    {
       "id": "scheduled-image-00247",
       "status": "QUEUED",
       "type": "IMAGE",
@@ -3382,23 +3399,6 @@
         "to": "facility",
         "relation": "THE ROOM GETS SMALLER",
         "cycle": 49
-      }
-    },
-    {
-      "id": "scheduled-image-00048",
-      "status": "QUEUED",
-      "type": "IMAGE",
-      "sourceRecording": "./recordings/scheduled-recording-00048.json",
-      "map": "./spatial-world.json",
-      "target": "visual-synthesis",
-      "title": "THE COMPLEX → BEEFYTHIQ / ANDREW",
-      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00048. Travel from THE COMPLEX into BEEFYTHIQ through the relation \"MASS BECOMES WEATHER\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 5.46× to 5.54× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
-      "created": "2026-10-15T11:09:51.153Z",
-      "lineage": {
-        "from": "complex",
-        "to": "beefythiq",
-        "relation": "MASS BECOMES WEATHER",
-        "cycle": 48
       }
     }
   ]

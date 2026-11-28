@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-28T01:37:24.421Z",
+  "generated": "2026-11-28T09:28:33.148Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00248",
+      "at": "2026-11-28T09:28:33.148Z",
+      "from": "geehub-long-play",
+      "to": "andrew",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / EMBODIED SCALE → COLOSSAL ESCALATION / ANDREW",
+      "body": "The world crossed the existing relation \"THE OLD WORLD FITS NO MORE\" from EMBODIED SCALE into COLOSSAL ESCALATION. Scale increased from 18.26× to 18.34×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00248",
+      "live": true,
+      "regionId": "colossal-escalation",
+      "previousRegionId": "embodied-scale",
+      "relation": "THE OLD WORLD FITS NO MORE"
+    },
     {
       "id": "scheduled-long-play-00247",
       "at": "2026-11-28T01:37:24.421Z",
@@ -1482,21 +1497,6 @@
       "regionId": "beefythiq",
       "previousRegionId": "complex",
       "relation": "MASS BECOMES WEATHER"
-    },
-    {
-      "id": "scheduled-long-play-00151",
-      "at": "2026-11-02T23:42:13.127Z",
-      "from": "geehub-long-play",
-      "to": "luke",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / GROWTH CANVAS → THE COMPLEX / LUKE",
-      "body": "The world crossed the existing relation \"KISS = CONTINUITY\" from GROWTH CANVAS into THE COMPLEX. Scale increased from 12.10× to 12.13×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00151",
-      "live": true,
-      "regionId": "complex",
-      "previousRegionId": "growth",
-      "relation": "KISS = CONTINUITY"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "pulse": 389,
+  "pulse": 390,
   "events": [
     {
       "pulse": 1,
@@ -7575,6 +7575,28 @@
       "occurred_at": "2026-11-27T23:20:06.734820+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000390",
+      "pulse": 390,
+      "time": "2026-11-28T04:54:39.587725+00:00",
+      "actor": "LUKE",
+      "world": "EMBODIED SCALE",
+      "region_id": "embodied-scale",
+      "previous_region_id": "embodied-scale",
+      "phase": "ATMOSPHERE",
+      "source": "research/embodied-scale/README.md",
+      "desire_state": "attention",
+      "action": "SETH: A hand slides along the doorframe as the man turns sideways to pass. His face is familiar, but the shoulder now comes close enough to the jamb to catch a line of reflected light.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-28T04:54:39.587725+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -7625,14 +7647,14 @@
     "northgate-library": 360,
     "athletic-commons": 336.5
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 10,
     "creative/luke-bwomph.json": 20,
     "lore/DEEP_LORE.md": 17,
     "world.json": 20,
-    "research/embodied-scale/README.md": 19,
+    "research/embodied-scale/README.md": 20,
     "archive/male-harem/README.md": 18,
     "research/embodied-scale/colossal-escalation.json": 17,
     "projects.json": 9,
@@ -7650,9 +7672,9 @@
     "worlds/athletic-commons/README.md": 13
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "embodied-scale",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

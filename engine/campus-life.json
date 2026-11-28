@@ -1,6 +1,25 @@
 {
-  "cycle": 220,
+  "cycle": 221,
   "events": [
+    {
+      "id": "northgate-campus-00221",
+      "cycle": 221,
+      "world_pulse": 390,
+      "at": "2026-11-28T04:54:39.728783+00:00",
+      "region": "northgate-library",
+      "title": "THE ARCHIVE IS OPEN",
+      "kind": "archive",
+      "participants": [
+        "Marek Ionescu",
+        "Elliot Ward",
+        "Dan Roman"
+      ],
+      "description": "A student brings an old campus photograph into the archive room. The group identifies the building in the background and discovers that the covered passage once connected to a workshop that has since become the media suite. The university gains another small piece of its own memory.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-28T04:54:39.728783+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    },
     {
       "id": "northgate-campus-00220",
       "cycle": 220,
@@ -4169,28 +4188,28 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 169,
-    "Marek Ionescu": 118,
-    "Elliot Ward": 135,
+    "Dan Roman": 170,
+    "Marek Ionescu": 119,
+    "Elliot Ward": 136,
     "Noah Bell": 136,
     "Adrian Varga": 136
   },
   "last_event": {
-    "id": "northgate-campus-00220",
-    "cycle": 220,
-    "world_pulse": 389,
-    "at": "2026-11-27T23:20:06.876220+00:00",
-    "region": "northgate-university",
-    "title": "THE NORTHGATE MATCH",
-    "kind": "sport",
+    "id": "northgate-campus-00221",
+    "cycle": 221,
+    "world_pulse": 390,
+    "at": "2026-11-28T04:54:39.728783+00:00",
+    "region": "northgate-library",
+    "title": "THE ARCHIVE IS OPEN",
+    "kind": "archive",
     "participants": [
-      "Noah Bell",
-      "Adrian Varga",
+      "Marek Ionescu",
+      "Elliot Ward",
       "Dan Roman"
     ],
-    "description": "Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.",
+    "description": "A student brings an old campus photograph into the archive room. The group identifies the building in the background and discovers that the covered passage once connected to a workshop that has since become the media suite. The university gains another small piece of its own memory.",
     "status": "OCCURRED_AND_INSCRIBED",
-    "occurred_at": "2026-11-27T23:20:06.876220+00:00",
+    "occurred_at": "2026-11-28T04:54:39.728783+00:00",
     "inscription": "same-event",
     "inscription_source": "northgate-campus-engine"
   },
